@@ -1,0 +1,13 @@
+﻿@page "/Fibonacci"
+@rendermode InteractiveServer
+
+@using System.Numerics;
+
+<h1>Fibonacci</h1>
+
+<div class="Fibonacci">
+    <input type="number" @bind="count"/>
+    <input type="number" @bind="res"/>
+    <h3> @count = @res;</h3>
+</div>
+@* <button @onclick="Сalculation">Calculate</button> *@

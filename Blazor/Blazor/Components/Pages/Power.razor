@@ -1,0 +1,12 @@
+﻿@page "/Power"
+@rendermode InteractiveServer
+
+@using System.Numerics;
+
+<h1>Power</h1>
+
+<div class="power">
+    <input type="number" @bind="n" @bind:after="Multiply" />
+    <input type="number" @bind="p" @bind:after="Multiply" />
+    <h3> @n ^ @p = @res;</h3>
+</div>

@@ -35,6 +35,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/S1iM/source/repos/ASP/Blazor/Blazor/Components/Pages/Fibonacci.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xGaWJvbmFjY2kucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/S1iM/source/repos/ASP/Blazor/Blazor/Components/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
@@ -70,3 +74,7 @@ build_metadata.AdditionalFiles.CssScope = b-mec9fr2mus
 [C:/Users/S1iM/source/repos/ASP/Blazor/Blazor/Components/Pages/Factorial.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xGYWN0b3JpYWwucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-uyr98sbmy3
+
+[C:/Users/S1iM/source/repos/ASP/Blazor/Blazor/Components/Pages/Power.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQb3dlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-ae2b5qpadm

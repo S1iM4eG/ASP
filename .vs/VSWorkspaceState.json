@@ -1,6 +1,14 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Blazor",
+    "\\Blazor\\Blazor",
+    "\\Blazor\\Blazor\\Components",
+    "\\Blazor\\Blazor\\Components\\Layout",
+    "\\Blazor\\Blazor\\Components\\Pages",
+    "\\Blazor\\Blazor\\obj",
+    "\\Blazor\\Blazor\\Properties"
   ],
+  "SelectedNode": "\\Blazor\\Blazor\\Components\\Pages\\Home.razor",
   "PreviewInSolutionExplorer": false
 }
