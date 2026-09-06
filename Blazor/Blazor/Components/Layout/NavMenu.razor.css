@@ -1,105 +1,117 @@
 .navbar-toggler {
-    appearance: none;
-    cursor: pointer;
-    width: 3.5rem;
-    height: 2.5rem;
-    color: white;
-    position: absolute;
-    top: 0.5rem;
-    right: 1rem;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") no-repeat center/1.75rem rgba(255, 255, 255, 0.1);
+	appearance: none;
+	cursor: pointer;
+	width: 3.5rem;
+	height: 2.5rem;
+	color: white;
+	position: absolute;
+	top: 0.5rem;
+	right: 1rem;
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") no-repeat center/1.75rem rgba(255, 255, 255, 0.1);
 }
 
-.navbar-toggler:checked {
-    background-color: rgba(255, 255, 255, 0.5);
-}
+	.navbar-toggler:checked {
+		background-color: rgba(255, 255, 255, 0.5);
+	}
 
 .top-row {
-    min-height: 3.5rem;
-    background-color: rgba(0,0,0,0.4);
+	min-height: 3.5rem;
+	background-color: rgba(0,0,0,0.4);
 }
 
 .navbar-brand {
-    font-size: 1.1rem;
+	font-size: 1.1rem;
 }
 
 .bi {
-    display: inline-block;
-    position: relative;
-    width: 1.25rem;
-    height: 1.25rem;
-    margin-right: 0.75rem;
-    top: -1px;
-    background-size: cover;
+	display: inline-block;
+	position: relative;
+	width: 1.25rem;
+	height: 1.25rem;
+	margin-right: 0.75rem;
+	top: -1px;
+	background-size: cover;
 }
 
 .bi-house-door-fill-nav-menu {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' class='bi bi-house-door-fill' viewBox='0 0 16 16'%3E%3Cpath d='M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5Z'/%3E%3C/svg%3E");
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' class='bi bi-house-door-fill' viewBox='0 0 16 16'%3E%3Cpath d='M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5Z'/%3E%3C/svg%3E");
 }
 
 .bi-plus-square-fill-nav-menu {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' class='bi bi-plus-square-fill' viewBox='0 0 16 16'%3E%3Cpath d='M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm6.5 4.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3a.5.5 0 0 1 1 0z'/%3E%3C/svg%3E");
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' class='bi bi-plus-square-fill' viewBox='0 0 16 16'%3E%3Cpath d='M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm6.5 4.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3a.5.5 0 0 1 1 0z'/%3E%3C/svg%3E");
 }
 
 .bi-list-nested-nav-menu {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' class='bi bi-list-nested' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M4.5 11.5A.5.5 0 0 1 5 11h10a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zm-2-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm-2-4A.5.5 0 0 1 1 3h10a.5.5 0 0 1 0 1H1a.5.5 0 0 1-.5-.5z'/%3E%3C/svg%3E");
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' class='bi bi-list-nested' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M4.5 11.5A.5.5 0 0 1 5 11h10a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zm-2-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm-2-4A.5.5 0 0 1 1 3h10a.5.5 0 0 1 0 1H1a.5.5 0 0 1-.5-.5z'/%3E%3C/svg%3E");
+}
+
+.bi-factorial-nav-menu {
+	background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" viewBox="0 0 128 512"><!--! Font Awesome Free 6.0.0-beta2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M64 352c17.69 0 32-14.32 32-31.1V64.01c0-17.67-14.31-32.01-32-32.01S32 46.34 32 64.01v255.1C32 337.7 46.31 352 64 352zM64 400c-22.09 0-40 17.91-40 40s17.91 39.1 40 39.1s40-17.9 40-39.1S86.09 400 64 400z"/></svg>');
+}
+
+.bitcoin-nav-menu {
+	background-image: url('bitcoin.svg');
+	/*background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64"><path d="M63.043 39.76C58.766 56.866 41.424 67.32 24.24 63.043 7.134 58.766-3.32 41.424.957 24.24 5.234 7.134 22.576-3.32 39.76.957 56.866 5.234 67.32 22.576 63.043 39.76z" fill="orange"/><path d="M46.096 27.407c.634-4.276-2.613-6.573-7.048-8.077l1.425-5.78-3.484-.87-1.425 5.623c-.95-.238-1.9-.475-2.85-.634l1.425-5.623-3.484-.87-1.425 5.78c-.792-.158-1.505-.317-2.217-.554l-4.83-1.188-.95 3.722 2.534.634c1.425.317 1.663 1.267 1.663 2.06l-1.666 6.57c.08 0 .238.08.396.08-.08 0-.238-.08-.396-.08l-2.297 9.186c-.158.396-.634 1.1-1.584.87 0 .08-2.534-.634-2.534-.634l-1.742 4.04 4.593 1.1c.87.238 1.663.475 2.534.634l-1.425 5.86 3.484.87 1.425-5.78L29 45.07l-1.425 5.78 3.484.87 1.425-5.86c6.018 1.1 10.453.713 12.354-4.75 1.505-4.355-.08-6.9-3.247-8.553 2.376-.475 4.04-1.98 4.514-5.147zM38.098 38.73c-1.1 4.355-8.394 1.98-10.77 1.425l1.9-7.76c2.376.554 9.978 1.742 8.87 6.335zm1.1-11.324c-.95 3.96-7.127 1.98-9.107 1.425l1.742-7.048c1.98.554 8.394 1.425 7.365 5.623z" fill="white"/></svg>')*/
+}
+
+.litecoin-nav-menu{
+	background-image: url('litecoin.ico');
 }
 
 .nav-item {
-    font-size: 0.9rem;
-    padding-bottom: 0.5rem;
+	font-size: 0.9rem;
+	padding-bottom: 0.5rem;
 }
 
-    .nav-item:first-of-type {
-        padding-top: 1rem;
-    }
+	.nav-item:first-of-type {
+		padding-top: 1rem;
+	}
 
-    .nav-item:last-of-type {
-        padding-bottom: 1rem;
-    }
+	.nav-item:last-of-type {
+		padding-bottom: 1rem;
+	}
 
-    .nav-item ::deep .nav-link {
-        color: #d7d7d7;
-        background: none;
-        border: none;
-        border-radius: 4px;
-        height: 3rem;
-        display: flex;
-        align-items: center;
-        line-height: 3rem;
-        width: 100%;
-    }
+	.nav-item ::deep .nav-link {
+		color: #d7d7d7;
+		background: none;
+		border: none;
+		border-radius: 4px;
+		height: 3rem;
+		display: flex;
+		align-items: center;
+		line-height: 3rem;
+		width: 100%;
+	}
 
-.nav-item ::deep a.active {
-    background-color: rgba(255,255,255,0.37);
-    color: white;
-}
+	.nav-item ::deep a.active {
+		background-color: rgba(255,255,255,0.37);
+		color: white;
+	}
 
-.nav-item ::deep .nav-link:hover {
-    background-color: rgba(255,255,255,0.1);
-    color: white;
-}
+	.nav-item ::deep .nav-link:hover {
+		background-color: rgba(255,255,255,0.1);
+		color: white;
+	}
 
 .nav-scrollable {
-    display: none;
+	display: none;
 }
 
 .navbar-toggler:checked ~ .nav-scrollable {
-    display: block;
+	display: block;
 }
 
 @media (min-width: 641px) {
-    .navbar-toggler {
-        display: none;
-    }
+	.navbar-toggler {
+		display: none;
+	}
 
-    .nav-scrollable {
-        /* Never collapse the sidebar for wide screens */
-        display: block;
-
-        /* Allow sidebar to scroll for tall menus */
-        height: calc(100vh - 3.5rem);
-        overflow-y: auto;
-    }
+	.nav-scrollable {
+		/* Never collapse the sidebar for wide screens */
+		display: block;
+		/* Allow sidebar to scroll for tall menus */
+		height: calc(100vh - 3.5rem);
+		overflow-y: auto;
+	}
 }

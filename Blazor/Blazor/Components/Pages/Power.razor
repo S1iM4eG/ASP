@@ -6,7 +6,9 @@
 <h1>Power</h1>
 
 <div class="power">
+    <h3>Число:</h3>
     <input type="number" @bind="n" @bind:after="Multiply" />
+    <h3>Степень:</h3>
     <input type="number" @bind="p" @bind:after="Multiply" />
-    <h3> @n ^ @p = @res;</h3>
+    <h3> Результат: @n ^ @p = @res;</h3>
 </div>

@@ -7,7 +7,7 @@ namespace Blazor.Components.Pages
         int count;
         long[] res;
 
-        /*void Сalculation()
+        void Сalculation()
         {
             if (count <= 0)
             {
@@ -25,6 +25,6 @@ namespace Blazor.Components.Pages
             {
                 res[i] = res[i - 1] + res[i - 2];
             }
-        }*/
+        }
     }
 }

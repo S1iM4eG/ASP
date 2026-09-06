@@ -1,4 +1,6 @@
 wwwroot\app.css
+wwwroot\bitcoin.svg
+wwwroot\exclamation_icon_199251.svg
 wwwroot\favicon.png
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
@@ -44,9 +46,11 @@ wwwroot\lib\bootstrap\dist\js\bootstrap.js
 wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
 wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
 wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+wwwroot\litecoin.ico
 Components\Layout\ReconnectModal.razor.js
 C:\Users\S1iM\.nuget\packages\microsoft.aspnetcore.app.internal.assets\10.0.11\build\..\_framework\blazor.web.js
 C:\Users\S1iM\.nuget\packages\microsoft.aspnetcore.app.internal.assets\10.0.11\build\..\_framework\blazor.server.js
+C:\Users\S1iM\source\repos\ASP\Blazor\Blazor\wwwroot\bitcoin.svg
 C:\Users\S1iM\source\repos\ASP\Blazor\Blazor\Components\Layout\ReconnectModal.razor.js
 C:\Users\S1iM\source\repos\ASP\Blazor\Blazor\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
 C:\Users\S1iM\source\repos\ASP\Blazor\Blazor\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
@@ -95,3 +99,5 @@ C:\Users\S1iM\source\repos\ASP\Blazor\Blazor\wwwroot\lib\bootstrap\dist\css\boot
 C:\Users\S1iM\source\repos\ASP\Blazor\Blazor\wwwroot\app.css
 C:\Users\S1iM\.nuget\packages\microsoft.aspnetcore.app.internal.assets\10.0.11\_framework\blazor.web.js
 C:\Users\S1iM\.nuget\packages\microsoft.aspnetcore.app.internal.assets\10.0.11\_framework\blazor.server.js
+C:\Users\S1iM\source\repos\ASP\Blazor\Blazor\wwwroot\exclamation_icon_199251.svg
+C:\Users\S1iM\source\repos\ASP\Blazor\Blazor\wwwroot\litecoin.ico

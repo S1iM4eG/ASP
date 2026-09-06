@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9D6F2367-CA0F-7288-F636-1EB2FF1E14E4}|Blazor\\Blazor.csproj|c:\\users\\s1im\\source\\repos\\asp\\blazor\\blazor\\components\\pages\\fibonacci.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9D6F2367-CA0F-7288-F636-1EB2FF1E14E4}|Blazor\\Blazor.csproj|solutionrelative:blazor\\components\\pages\\fibonacci.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9D6F2367-CA0F-7288-F636-1EB2FF1E14E4}|Blazor\\Blazor.csproj|c:\\users\\s1im\\source\\repos\\asp\\blazor\\blazor\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D6F2367-CA0F-7288-F636-1EB2FF1E14E4}|Blazor\\Blazor.csproj|solutionrelative:blazor\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D6F2367-CA0F-7288-F636-1EB2FF1E14E4}|Blazor\\Blazor.csproj|c:\\users\\s1im\\source\\repos\\asp\\blazor\\blazor\\components\\pages\\fibonacci.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D6F2367-CA0F-7288-F636-1EB2FF1E14E4}|Blazor\\Blazor.csproj|solutionrelative:blazor\\components\\pages\\fibonacci.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9D6F2367-CA0F-7288-F636-1EB2FF1E14E4}|Blazor\\Blazor.csproj|c:\\users\\s1im\\source\\repos\\asp\\blazor\\blazor\\components\\pages\\converter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D6F2367-CA0F-7288-F636-1EB2FF1E14E4}|Blazor\\Blazor.csproj|solutionrelative:blazor\\components\\pages\\converter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D6F2367-CA0F-7288-F636-1EB2FF1E14E4}|Blazor\\Blazor.csproj|c:\\users\\s1im\\source\\repos\\asp\\blazor\\blazor\\components\\pages\\power.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9D6F2367-CA0F-7288-F636-1EB2FF1E14E4}|Blazor\\Blazor.csproj|solutionrelative:blazor\\components\\pages\\power.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9D6F2367-CA0F-7288-F636-1EB2FF1E14E4}|Blazor\\Blazor.csproj|c:\\users\\s1im\\source\\repos\\asp\\blazor\\blazor\\components\\pages\\bitcoin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D6F2367-CA0F-7288-F636-1EB2FF1E14E4}|Blazor\\Blazor.csproj|solutionrelative:blazor\\components\\pages\\bitcoin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D6F2367-CA0F-7288-F636-1EB2FF1E14E4}|Blazor\\Blazor.csproj|c:\\users\\s1im\\source\\repos\\asp\\blazor\\blazor\\components\\pages\\power.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D6F2367-CA0F-7288-F636-1EB2FF1E14E4}|Blazor\\Blazor.csproj|solutionrelative:blazor\\components\\pages\\power.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D6F2367-CA0F-7288-F636-1EB2FF1E14E4}|Blazor\\Blazor.csproj|c:\\users\\s1im\\source\\repos\\asp\\blazor\\blazor\\components\\pages\\factorial.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9D6F2367-CA0F-7288-F636-1EB2FF1E14E4}|Blazor\\Blazor.csproj|solutionrelative:blazor\\components\\pages\\factorial.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9D6F2367-CA0F-7288-F636-1EB2FF1E14E4}|Blazor\\Blazor.csproj|c:\\users\\s1im\\source\\repos\\asp\\blazor\\blazor\\components\\layout\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9D6F2367-CA0F-7288-F636-1EB2FF1E14E4}|Blazor\\Blazor.csproj|solutionrelative:blazor\\components\\layout\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,8 +26,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Blazor\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Blazor\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Blazor\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "Blazor\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-03T15:47:01.408Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NavMenu.razor.css",
+              "DocumentMoniker": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Blazor\\Components\\Layout\\NavMenu.razor.css",
+              "RelativeDocumentMoniker": "Blazor\\Components\\Layout\\NavMenu.razor.css",
+              "ToolTip": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Blazor\\Components\\Layout\\NavMenu.razor.css",
+              "RelativeToolTip": "Blazor\\Components\\Layout\\NavMenu.razor.css",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAowDoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-09-06T04:31:56.005Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Bitcoin.razor",
+              "DocumentMoniker": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Blazor\\Components\\Pages\\Bitcoin.razor",
+              "RelativeDocumentMoniker": "Blazor\\Components\\Pages\\Bitcoin.razor",
+              "ToolTip": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Blazor\\Components\\Pages\\Bitcoin.razor",
+              "RelativeToolTip": "Blazor\\Components\\Pages\\Bitcoin.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-06T05:57:59.58Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Converter.razor",
+              "DocumentMoniker": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Blazor\\Components\\Pages\\Converter.razor",
+              "RelativeDocumentMoniker": "Blazor\\Components\\Pages\\Converter.razor",
+              "ToolTip": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Blazor\\Components\\Pages\\Converter.razor",
+              "RelativeToolTip": "Blazor\\Components\\Pages\\Converter.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-06T06:41:06.577Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -43,71 +94,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Fibonacci.razor.cs",
-              "DocumentMoniker": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Blazor\\Components\\Pages\\Fibonacci.razor.cs",
-              "RelativeDocumentMoniker": "Blazor\\Components\\Pages\\Fibonacci.razor.cs",
-              "ToolTip": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Blazor\\Components\\Pages\\Fibonacci.razor.cs",
-              "RelativeToolTip": "Blazor\\Components\\Pages\\Fibonacci.razor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-30T17:15:22.91Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Fibonacci.razor",
-              "DocumentMoniker": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Blazor\\Components\\Pages\\Fibonacci.razor",
-              "RelativeDocumentMoniker": "Blazor\\Components\\Pages\\Fibonacci.razor",
-              "ToolTip": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Blazor\\Components\\Pages\\Fibonacci.razor",
-              "RelativeToolTip": "Blazor\\Components\\Pages\\Fibonacci.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-30T17:14:06.671Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Power.razor",
-              "DocumentMoniker": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Blazor\\Components\\Pages\\Power.razor",
-              "RelativeDocumentMoniker": "Blazor\\Components\\Pages\\Power.razor",
-              "ToolTip": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Blazor\\Components\\Pages\\Power.razor",
-              "RelativeToolTip": "Blazor\\Components\\Pages\\Power.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-30T15:55:06.684Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Power.razor.cs",
-              "DocumentMoniker": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Blazor\\Components\\Pages\\Power.razor.cs",
-              "RelativeDocumentMoniker": "Blazor\\Components\\Pages\\Power.razor.cs",
-              "ToolTip": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Blazor\\Components\\Pages\\Power.razor.cs",
-              "RelativeToolTip": "Blazor\\Components\\Pages\\Power.razor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-30T15:56:23.958Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Factorial.razor",
-              "DocumentMoniker": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Blazor\\Components\\Pages\\Factorial.razor",
-              "RelativeDocumentMoniker": "Blazor\\Components\\Pages\\Factorial.razor",
-              "ToolTip": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Blazor\\Components\\Pages\\Factorial.razor",
-              "RelativeToolTip": "Blazor\\Components\\Pages\\Factorial.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-29T17:27:28.93Z",
-              "EditorCaption": ""
             }
           ]
         }
