@@ -175,5 +175,6 @@ C:\Users\S1iM\source\repos\ASP\Blazor\Blazor\obj\Debug\net10.0\scopedcss\Compone
 C:\Users\S1iM\source\repos\ASP\Blazor\Blazor\obj\Debug\net10.0\compressed\d5i49gumgl-{0}-giaf7g8qr7-giaf7g8qr7.gz
 C:\Users\S1iM\source\repos\ASP\Blazor\Blazor\obj\Debug\net10.0\compressed\uc7v3xe9v2-{0}-1hluielso6-1hluielso6.gz
 C:\Users\S1iM\source\repos\ASP\Blazor\Blazor\obj\Debug\net10.0\compressed\4e7m3uaa3p-{0}-08ko0cqgg6-08ko0cqgg6.gz
-C:\Users\S1iM\source\repos\ASP\Blazor\Blazor\obj\Debug\net10.0\compressed\o15ig57xk3-{0}-2ydfj2u0gj-2ydfj2u0gj.gz
-C:\Users\S1iM\source\repos\ASP\Blazor\Blazor\obj\Debug\net10.0\compressed\wdm1sn9eao-{0}-2ydfj2u0gj-2ydfj2u0gj.gz
+C:\Users\S1iM\source\repos\ASP\Blazor\Blazor\obj\Debug\net10.0\compressed\rrksf9i78o-{0}-mnwmg7ewl3-mnwmg7ewl3.gz
+C:\Users\S1iM\source\repos\ASP\Blazor\Blazor\obj\Debug\net10.0\compressed\o15ig57xk3-{0}-yzxrhwmsb3-yzxrhwmsb3.gz
+C:\Users\S1iM\source\repos\ASP\Blazor\Blazor\obj\Debug\net10.0\compressed\wdm1sn9eao-{0}-yzxrhwmsb3-yzxrhwmsb3.gz
