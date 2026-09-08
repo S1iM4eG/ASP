@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9D6F2367-CA0F-7288-F636-1EB2FF1E14E4}|Blazor\\Blazor.csproj|c:\\users\\s1im\\source\\repos\\asp\\blazor\\blazor\\components\\layout\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{9D6F2367-CA0F-7288-F636-1EB2FF1E14E4}|Blazor\\Blazor.csproj|solutionrelative:blazor\\components\\layout\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{1F5658E9-7C80-40E7-A7A8-A3D905EEADE4}|ToDoList\\ToDoList.csproj|c:\\users\\s1im\\source\\repos\\asp\\blazor\\todolist\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F5658E9-7C80-40E7-A7A8-A3D905EEADE4}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D6F2367-CA0F-7288-F636-1EB2FF1E14E4}|Blazor\\Blazor.csproj|c:\\users\\s1im\\source\\repos\\asp\\blazor\\blazor\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9D6F2367-CA0F-7288-F636-1EB2FF1E14E4}|Blazor\\Blazor.csproj|solutionrelative:blazor\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1F5658E9-7C80-40E7-A7A8-A3D905EEADE4}|ToDoList\\ToDoList.csproj|c:\\users\\s1im\\source\\repos\\asp\\blazor\\todolist\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1F5658E9-7C80-40E7-A7A8-A3D905EEADE4}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D6F2367-CA0F-7288-F636-1EB2FF1E14E4}|Blazor\\Blazor.csproj|c:\\users\\s1im\\source\\repos\\asp\\blazor\\blazor\\wwwroot\\convert.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{9D6F2367-CA0F-7288-F636-1EB2FF1E14E4}|Blazor\\Blazor.csproj|solutionrelative:blazor\\wwwroot\\convert.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{1F5658E9-7C80-40E7-A7A8-A3D905EEADE4}|ToDoList\\ToDoList.csproj|c:\\users\\s1im\\source\\repos\\asp\\blazor\\todolist\\components\\pages\\tasklist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1F5658E9-7C80-40E7-A7A8-A3D905EEADE4}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\components\\pages\\tasklist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D6F2367-CA0F-7288-F636-1EB2FF1E14E4}|Blazor\\Blazor.csproj|c:\\users\\s1im\\source\\repos\\asp\\blazor\\blazor\\components\\pages\\converter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9D6F2367-CA0F-7288-F636-1EB2FF1E14E4}|Blazor\\Blazor.csproj|solutionrelative:blazor\\components\\pages\\converter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1F5658E9-7C80-40E7-A7A8-A3D905EEADE4}|ToDoList\\ToDoList.csproj|c:\\users\\s1im\\source\\repos\\asp\\blazor\\todolist\\components\\pages\\tasklist.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1F5658E9-7C80-40E7-A7A8-A3D905EEADE4}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\components\\pages\\tasklist.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,35 +26,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "NavMenu.razor",
-              "DocumentMoniker": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Blazor\\Components\\Layout\\NavMenu.razor",
-              "RelativeDocumentMoniker": "Blazor\\Components\\Layout\\NavMenu.razor",
-              "ToolTip": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Blazor\\Components\\Layout\\NavMenu.razor",
-              "RelativeToolTip": "Blazor\\Components\\Layout\\NavMenu.razor",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-09-03T15:47:01.408Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "NavMenu.razor.css",
-              "DocumentMoniker": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Blazor\\Components\\Layout\\NavMenu.razor.css",
-              "RelativeDocumentMoniker": "Blazor\\Components\\Layout\\NavMenu.razor.css",
-              "ToolTip": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Blazor\\Components\\Layout\\NavMenu.razor.css",
-              "RelativeToolTip": "Blazor\\Components\\Layout\\NavMenu.razor.css",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAowEAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-09-06T04:31:56.005Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -69,27 +42,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "convert.svg",
-              "DocumentMoniker": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Blazor\\wwwroot\\convert.svg",
-              "RelativeDocumentMoniker": "Blazor\\wwwroot\\convert.svg",
-              "ToolTip": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Blazor\\wwwroot\\convert.svg",
-              "RelativeToolTip": "Blazor\\wwwroot\\convert.svg",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKMSURBVDhPjZNLSFRhFMd/3507M/dKPsacsYelWGZZFFJRkdSmNrUoatMiKggSN2YFEUX3MvQiiBYWtFAyggoXPSGyhQuhFrXQFr7GMFOowcZMUO9MM3pPi9Eao6gf/Bcfh3PO/5yPo8jAsqxI5vtvKKXuhMPhK4jInIBlWRH5Bw0NDYOWZUVs264B0DILKEUXCCIpZOIi7uetpHpCxN8GiffU4rrThEIhXzgcXiEidbZtH/5ZQKTV\u002B72oItjSYfG5vxwneoX2/iW80dvxb4ji9D4BIBAIeBsbG4fSOXJWzSR7qpt9D\u002BvWndpTlNXL2HCQ28PXaIuVEB2Dmsp8DiZqyN35FAFiw19IJpPcbmrq0wCq7\u002BvHd5Y\u002B2rMy5y3OcBXmqtccq9rB/uUFKI/GzfZRPhRdBhEQIRgKUlxSAoAm0uqtWNB5Yu\u002Bier5\u002BWOoWbnxAwAwQzDao3lLIobX5ePxemiImroCIzFm\u002BztT7/CPLzi8ej\u002BVxdeyu1nJjgMR3FwDl0fD4dJRHozuWACStjM/TGDlZ50tNqHuxejo\u002B\u002BZPL8wwqCvxUFPhZFfBSbIBMJti0wJjpDpJRQXfjzr6uj9u\u002BtYysCWijA4OPqzeXpVLJtE010zS9cZDM1DTa9ASLmoaOnh4cEYaySsoa30T5Mp5kPD7Ni\u002B5Rtt7qofzqO553jqQHmHExi5p8RcRNsb6y7VWtnm1ecjUdcdM7QClwhQPl8zi3o\u002BiXdREMMwvbtvv0KYfmRJSBtvlVY93O6ujLlc8WdsYcdE1RmutlV3kO20tzcXFRohBFerQ/ccE6c11EJB53xIk7EndmNSnObxIRsSwrMucWUvh2AxiGiWmYGOassjB/0yxzzPzvOWfyAyvlXYiiBFoWAAAAAElFTkSuQmCC",
-              "WhenOpened": "2026-09-06T08:13:38.061Z"
+              "DocumentIndex": 3,
+              "Title": "TaskList.razor.css",
+              "DocumentMoniker": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\ToDoList\\Components\\Pages\\TaskList.razor.css",
+              "RelativeDocumentMoniker": "ToDoList\\Components\\Pages\\TaskList.razor.css",
+              "ToolTip": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\ToDoList\\Components\\Pages\\TaskList.razor.css",
+              "RelativeToolTip": "ToDoList\\Components\\Pages\\TaskList.razor.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-09-06T17:26:18.819Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Converter.razor",
-              "DocumentMoniker": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Blazor\\Components\\Pages\\Converter.razor",
-              "RelativeDocumentMoniker": "Blazor\\Components\\Pages\\Converter.razor",
-              "ToolTip": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Blazor\\Components\\Pages\\Converter.razor",
-              "RelativeToolTip": "Blazor\\Components\\Pages\\Converter.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "TaskList.razor",
+              "DocumentMoniker": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\ToDoList\\Components\\Pages\\TaskList.razor",
+              "RelativeDocumentMoniker": "ToDoList\\Components\\Pages\\TaskList.razor",
+              "ToolTip": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\ToDoList\\Components\\Pages\\TaskList.razor",
+              "RelativeToolTip": "ToDoList\\Components\\Pages\\TaskList.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-09-06T06:41:06.577Z"
+              "WhenOpened": "2026-09-06T16:38:22.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\ToDoList\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "ToDoList\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\ToDoList\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "ToDoList\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-06T16:38:02.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TODO.cs",
+              "DocumentMoniker": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\ToDoList\\TODO.cs",
+              "RelativeDocumentMoniker": "ToDoList\\TODO.cs",
+              "ToolTip": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\ToDoList\\TODO.cs",
+              "RelativeToolTip": "ToDoList\\TODO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-06T16:37:52.61Z",
+              "EditorCaption": ""
             }
           ]
         }

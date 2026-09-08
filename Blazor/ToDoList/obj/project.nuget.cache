@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ieEZkpyQDRU=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\ToDoList\\ToDoList.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\S1iM\\.nuget\\packages\\microsoft.aspnetcore.app.internal.assets\\10.0.11\\microsoft.aspnetcore.app.internal.assets.10.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}
