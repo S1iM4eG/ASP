@@ -18,13 +18,9 @@
     <PropertyColumn Property="movie => movie.Title" />
     <PropertyColumn Property="movie => movie.RealeaseDate" />
     <PropertyColumn Property="movie => movie.Genre" />
-    <PropertyColumn Property="movie => movie.URL" />
-    <PropertyColumn Property="movie => movie.Poster" />
 
     <TemplateColumn Context="movie">
-        <a href="@($"movies/edit?id={movie.ID}")">Edit</a> |
         <a href="@($"movies/details?id={movie.ID}")">Details</a> |
-        <a href="@($"movies/delete?id={movie.ID}")">Delete</a>
     </TemplateColumn>
 </QuickGrid>
 

@@ -6,19 +6,21 @@
 
 <PageTitle>Details</PageTitle>
 
-<h1>Details</h1>
+@* <h1>Details</h1> *@
 
 <div>
-    <h2>Movie</h2>
-    <hr />
+    @* <h2>Movie</h2> *@
+   @*  <hr /> *@
     @if (movie is null)
     {
         <p><em>Loading...</em></p>
     }
     else {
         <dl class="row">
-            <dt class="col-sm-2">Title</dt>
-            <dd class="col-sm-10">@movie.Title</dd>
+            <h1>@movie.Title details</h1>
+            <hr />
+            @* <dt class="col-sm-2">Title</dt>
+            <dd class="col-sm-10">@movie.Title</dd> *@
             <dt class="col-sm-2">RealeaseDate</dt>
             <dd class="col-sm-10">@movie.RealeaseDate</dd>
             <dt class="col-sm-2">Genre</dt>
@@ -30,6 +32,7 @@
         </dl>
         <div>
             <a href="@($"/movies/edit?id={movie.ID}")">Edit</a> |
+            <a href="@($"/movies/delete?id={movie.ID}")">Delete</a> |
             <a href="@($"/movies")">Back to List</a>
         </div>
     }

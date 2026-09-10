@@ -224,3 +224,4 @@ C:\Users\S1iM\source\repos\ASP\Blazor\Movies\obj\Debug\net10.0\compressed\1x45lb
 C:\Users\S1iM\source\repos\ASP\Blazor\Movies\obj\Debug\net10.0\compressed\ar0pv2ogck-{0}-3jw80d2jw2-3jw80d2jw2.gz
 C:\Users\S1iM\source\repos\ASP\Blazor\Movies\obj\Debug\net10.0\Movies.csproj.Up2Date
 C:\Users\S1iM\source\repos\ASP\Blazor\Movies\bin\Debug\net10.0\dotnet-tools.json
+C:\Users\S1iM\source\repos\ASP\Blazor\Movies\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt

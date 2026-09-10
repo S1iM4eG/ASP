@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4239EB6F-CB07-43CA-A601-A6D046072BA1}|Movies\\Movies.csproj|c:\\users\\s1im\\source\\repos\\asp\\blazor\\movies\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4239EB6F-CB07-43CA-A601-A6D046072BA1}|Movies\\Movies.csproj|solutionrelative:movies\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4239EB6F-CB07-43CA-A601-A6D046072BA1}|Movies\\Movies.csproj|c:\\users\\s1im\\source\\repos\\asp\\blazor\\movies\\components\\pages\\moviepages\\delete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4239EB6F-CB07-43CA-A601-A6D046072BA1}|Movies\\Movies.csproj|solutionrelative:movies\\components\\pages\\moviepages\\delete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4239EB6F-CB07-43CA-A601-A6D046072BA1}|Movies\\Movies.csproj|c:\\users\\s1im\\source\\repos\\asp\\blazor\\movies\\components\\pages\\moviepages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4239EB6F-CB07-43CA-A601-A6D046072BA1}|Movies\\Movies.csproj|solutionrelative:movies\\components\\pages\\moviepages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4239EB6F-CB07-43CA-A601-A6D046072BA1}|Movies\\Movies.csproj|c:\\users\\s1im\\source\\repos\\asp\\blazor\\movies\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4239EB6F-CB07-43CA-A601-A6D046072BA1}|Movies\\Movies.csproj|solutionrelative:movies\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,14 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "NavMenu.razor",
-              "DocumentMoniker": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Movies\\Components\\Layout\\NavMenu.razor",
-              "RelativeDocumentMoniker": "Movies\\Components\\Layout\\NavMenu.razor",
-              "ToolTip": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Movies\\Components\\Layout\\NavMenu.razor*",
-              "RelativeToolTip": "Movies\\Components\\Layout\\NavMenu.razor*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Title": "Delete.razor",
+              "DocumentMoniker": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Movies\\Components\\Pages\\MoviePages\\Delete.razor",
+              "RelativeDocumentMoniker": "Movies\\Components\\Pages\\MoviePages\\Delete.razor",
+              "ToolTip": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Movies\\Components\\Pages\\MoviePages\\Delete.razor*",
+              "RelativeToolTip": "Movies\\Components\\Pages\\MoviePages\\Delete.razor*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-09-08T17:52:09.062Z",
+              "WhenOpened": "2026-09-10T16:46:55.701Z",
               "EditorCaption": ""
             },
             {
@@ -45,9 +41,9 @@
               "RelativeDocumentMoniker": "Movies\\Components\\Pages\\MoviePages\\Index.razor",
               "ToolTip": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Movies\\Components\\Pages\\MoviePages\\Index.razor",
               "RelativeToolTip": "Movies\\Components\\Pages\\MoviePages\\Index.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABCAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-09-08T17:10:32.54Z",
+              "WhenOpened": "2026-09-10T16:30:40.447Z",
               "EditorCaption": ""
             },
             {
@@ -61,19 +57,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Movie.cs",
-              "DocumentMoniker": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Movies\\Models\\Movie.cs",
-              "RelativeDocumentMoniker": "Movies\\Models\\Movie.cs",
-              "ToolTip": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Movies\\Models\\Movie.cs",
-              "RelativeToolTip": "Movies\\Models\\Movie.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-08T16:23:23.925Z",
-              "EditorCaption": ""
             }
           ]
         }
