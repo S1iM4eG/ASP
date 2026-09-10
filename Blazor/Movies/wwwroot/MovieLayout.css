@@ -1,0 +1,7 @@
+﻿.movie-container {
+	display: flex;
+	justify-content: space-between;
+}
+.poster-container{
+	margin: 5%;
+}

@@ -72,7 +72,6 @@ C:\Users\S1iM\source\repos\ASP\Blazor\Movies\obj\Debug\net10.0\compressed\6x5g4k
 C:\Users\S1iM\source\repos\ASP\Blazor\Movies\obj\Debug\net10.0\compressed\5uya1som1a-{0}-abdmv1u4y3-abdmv1u4y3.gz
 C:\Users\S1iM\source\repos\ASP\Blazor\Movies\obj\Debug\net10.0\compressed\9x3vt4w048-{0}-wyu7y4jcvb-wyu7y4jcvb.gz
 C:\Users\S1iM\source\repos\ASP\Blazor\Movies\obj\Debug\net10.0\compressed\swpocer7m6-{0}-wfr2hj6447-wfr2hj6447.gz
-C:\Users\S1iM\source\repos\ASP\Blazor\Movies\obj\Debug\net10.0\compressed\ckexoel6xs-{0}-y3wfom26bz-y3wfom26bz.gz
 C:\Users\S1iM\source\repos\ASP\Blazor\Movies\obj\Debug\net10.0\staticwebassets.build.json
 C:\Users\S1iM\source\repos\ASP\Blazor\Movies\obj\Debug\net10.0\staticwebassets.build.json.cache
 C:\Users\S1iM\source\repos\ASP\Blazor\Movies\obj\Debug\net10.0\staticwebassets.development.json
@@ -221,7 +220,9 @@ C:\Users\S1iM\source\repos\ASP\Blazor\Movies\bin\Debug\net10.0\runtimes\win-x86\
 C:\Users\S1iM\source\repos\ASP\Blazor\Movies\obj\Debug\net10.0\Movies.csproj.AssemblyReference.cache
 C:\Users\S1iM\source\repos\ASP\Blazor\Movies\obj\Debug\net10.0\compressed\unlu0xluo6-{0}-eu7w3d5g1a-eu7w3d5g1a.gz
 C:\Users\S1iM\source\repos\ASP\Blazor\Movies\obj\Debug\net10.0\compressed\1x45lb54o8-{0}-boiwgh0w5b-boiwgh0w5b.gz
-C:\Users\S1iM\source\repos\ASP\Blazor\Movies\obj\Debug\net10.0\compressed\ar0pv2ogck-{0}-3jw80d2jw2-3jw80d2jw2.gz
 C:\Users\S1iM\source\repos\ASP\Blazor\Movies\obj\Debug\net10.0\Movies.csproj.Up2Date
 C:\Users\S1iM\source\repos\ASP\Blazor\Movies\bin\Debug\net10.0\dotnet-tools.json
 C:\Users\S1iM\source\repos\ASP\Blazor\Movies\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+C:\Users\S1iM\source\repos\ASP\Blazor\Movies\obj\Debug\net10.0\scopedcss\Components\Pages\MoviePages\Details.razor.rz.scp.css
+C:\Users\S1iM\source\repos\ASP\Blazor\Movies\obj\Debug\net10.0\compressed\ar0pv2ogck-{0}-s1dskid9wo-s1dskid9wo.gz
+C:\Users\S1iM\source\repos\ASP\Blazor\Movies\obj\Debug\net10.0\compressed\ckexoel6xs-{0}-vrnypfuf0t-vrnypfuf0t.gz

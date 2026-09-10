@@ -361,3 +361,11 @@ main[b-0d7mpe8t3j] {
         opacity: 0;
     }
 }
+/* /Components/Pages/MoviePages/Details.razor.rz.scp.css */
+.container[b-4bz4x0twmv] {
+	display: flex;
+	justify-content: space-between;
+}
+.poster-container[b-4bz4x0twmv]{
+	margin: 5%;
+}
