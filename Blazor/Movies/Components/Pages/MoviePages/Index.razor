@@ -1,4 +1,5 @@
 @page "/movies"
+@rendermode InteractiveServer
 @using Microsoft.AspNetCore.Components.QuickGrid
 @using Microsoft.EntityFrameworkCore
 @using Movies.Models
@@ -14,7 +15,7 @@
     <a href="movies/create">Create New</a>
 </p>
 
-<QuickGrid Class="table" Items="context.Movie">
+<QuickGrid Class="table" Items="context.Movie", Pagination="pagination">
     @* <PropertyColumn Property="movie => movie.Title" /> *@
     <TemplateColumn Context="movie" Title="Title">
         <a href="@($"movies/Details?ID={movie.ID}")">@movie.Title</a>
@@ -22,14 +23,16 @@
     <PropertyColumn Property="movie => movie.RealeaseDate" />
     <PropertyColumn Property="movie => movie.Genre" />
 
-    <TemplateColumn Context="movie">
+   @*  <TemplateColumn Context="movie">
         <a href="@($"movies/details?id={movie.ID}")">Details</a> |
-    </TemplateColumn>
+    </TemplateColumn> *@
 </QuickGrid>
+    <Paginator State="pagination"/>
 
 @code {
     private MoviesContext context = default!;
 
+    PaginationState pagination = new PaginationState { ItemsPerPage = 3 };
     protected override void OnInitialized()
     {
         context = DbFactory.CreateDbContext();

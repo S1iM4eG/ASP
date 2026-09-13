@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4239EB6F-CB07-43CA-A601-A6D046072BA1}|Movies\\Movies.csproj|c:\\users\\s1im\\source\\repos\\asp\\blazor\\movies\\components\\pages\\moviepages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4239EB6F-CB07-43CA-A601-A6D046072BA1}|Movies\\Movies.csproj|solutionrelative:movies\\components\\pages\\moviepages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4239EB6F-CB07-43CA-A601-A6D046072BA1}|Movies\\Movies.csproj|c:\\users\\s1im\\source\\repos\\asp\\blazor\\movies\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4239EB6F-CB07-43CA-A601-A6D046072BA1}|Movies\\Movies.csproj|solutionrelative:movies\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -31,12 +35,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Movies\\Components\\Pages\\MoviePages\\Index.razor",
+              "RelativeDocumentMoniker": "Movies\\Components\\Pages\\MoviePages\\Index.razor",
+              "ToolTip": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Movies\\Components\\Pages\\MoviePages\\Index.razor*",
+              "RelativeToolTip": "Movies\\Components\\Pages\\MoviePages\\Index.razor*",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACEAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-13T15:50:16.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Movie.cs",
               "DocumentMoniker": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Movies\\Models\\Movie.cs",
               "RelativeDocumentMoniker": "Movies\\Models\\Movie.cs",
-              "ToolTip": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Movies\\Models\\Movie.cs*",
-              "RelativeToolTip": "Movies\\Models\\Movie.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAdAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Movies\\Models\\Movie.cs",
+              "RelativeToolTip": "Movies\\Models\\Movie.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-13T15:26:34.261Z",
               "EditorCaption": ""
