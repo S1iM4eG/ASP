@@ -3,24 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4239EB6F-CB07-43CA-A601-A6D046072BA1}|Movies\\Movies.csproj|c:\\users\\s1im\\source\\repos\\asp\\blazor\\movies\\components\\pages\\moviepages\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4239EB6F-CB07-43CA-A601-A6D046072BA1}|Movies\\Movies.csproj|solutionrelative:movies\\components\\pages\\moviepages\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4239EB6F-CB07-43CA-A601-A6D046072BA1}|Movies\\Movies.csproj|c:\\users\\s1im\\source\\repos\\asp\\blazor\\movies\\components\\pages\\moviepages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4239EB6F-CB07-43CA-A601-A6D046072BA1}|Movies\\Movies.csproj|solutionrelative:movies\\components\\pages\\moviepages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4239EB6F-CB07-43CA-A601-A6D046072BA1}|Movies\\Movies.csproj|c:\\users\\s1im\\source\\repos\\asp\\blazor\\movies\\components\\pages\\moviepages\\details.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4239EB6F-CB07-43CA-A601-A6D046072BA1}|Movies\\Movies.csproj|solutionrelative:movies\\components\\pages\\moviepages\\details.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4239EB6F-CB07-43CA-A601-A6D046072BA1}|Movies\\Movies.csproj|c:\\users\\s1im\\source\\repos\\asp\\blazor\\movies\\components\\pages\\moviepages\\delete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4239EB6F-CB07-43CA-A601-A6D046072BA1}|Movies\\Movies.csproj|solutionrelative:movies\\components\\pages\\moviepages\\delete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4239EB6F-CB07-43CA-A601-A6D046072BA1}|Movies\\Movies.csproj|c:\\users\\s1im\\source\\repos\\asp\\blazor\\movies\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4239EB6F-CB07-43CA-A601-A6D046072BA1}|Movies\\Movies.csproj|solutionrelative:movies\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4239EB6F-CB07-43CA-A601-A6D046072BA1}|Movies\\Movies.csproj|c:\\users\\s1im\\source\\repos\\asp\\blazor\\movies\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4239EB6F-CB07-43CA-A601-A6D046072BA1}|Movies\\Movies.csproj|solutionrelative:movies\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,21 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Edit.razor",
-              "DocumentMoniker": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Movies\\Components\\Pages\\MoviePages\\Edit.razor",
-              "RelativeDocumentMoniker": "Movies\\Components\\Pages\\MoviePages\\Edit.razor",
-              "ToolTip": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Movies\\Components\\Pages\\MoviePages\\Edit.razor*",
-              "RelativeToolTip": "Movies\\Components\\Pages\\MoviePages\\Edit.razor*",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAAAGUAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-09-13T15:00:01.78Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -59,54 +34,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "App.razor",
-              "DocumentMoniker": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Movies\\Components\\App.razor",
-              "RelativeDocumentMoniker": "Movies\\Components\\App.razor",
-              "ToolTip": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Movies\\Components\\App.razor",
-              "RelativeToolTip": "Movies\\Components\\App.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAOAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Movies\\Components\\Pages\\MoviePages\\Index.razor",
+              "RelativeDocumentMoniker": "Movies\\Components\\Pages\\MoviePages\\Index.razor",
+              "ToolTip": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Movies\\Components\\Pages\\MoviePages\\Index.razor*",
+              "RelativeToolTip": "Movies\\Components\\Pages\\MoviePages\\Index.razor*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-09-10T17:51:05.726Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Delete.razor",
-              "DocumentMoniker": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Movies\\Components\\Pages\\MoviePages\\Delete.razor",
-              "RelativeDocumentMoniker": "Movies\\Components\\Pages\\MoviePages\\Delete.razor",
-              "ToolTip": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Movies\\Components\\Pages\\MoviePages\\Delete.razor",
-              "RelativeToolTip": "Movies\\Components\\Pages\\MoviePages\\Delete.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-09-10T16:46:55.701Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Details.razor",
-              "DocumentMoniker": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Movies\\Components\\Pages\\MoviePages\\Details.razor",
-              "RelativeDocumentMoniker": "Movies\\Components\\Pages\\MoviePages\\Details.razor",
-              "ToolTip": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Movies\\Components\\Pages\\MoviePages\\Details.razor",
-              "RelativeToolTip": "Movies\\Components\\Pages\\MoviePages\\Details.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-09-10T17:12:56.239Z",
+              "WhenOpened": "2026-09-13T15:50:16.506Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Index.razor",
-              "DocumentMoniker": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Movies\\Components\\Pages\\MoviePages\\Index.razor",
-              "RelativeDocumentMoniker": "Movies\\Components\\Pages\\MoviePages\\Index.razor",
-              "ToolTip": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Movies\\Components\\Pages\\MoviePages\\Index.razor",
-              "RelativeToolTip": "Movies\\Components\\Pages\\MoviePages\\Index.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-09-10T16:30:40.447Z",
+              "Title": "Movie.cs",
+              "DocumentMoniker": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Movies\\Models\\Movie.cs",
+              "RelativeDocumentMoniker": "Movies\\Models\\Movie.cs",
+              "ToolTip": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Movies\\Models\\Movie.cs",
+              "RelativeToolTip": "Movies\\Models\\Movie.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-13T15:26:34.261Z",
               "EditorCaption": ""
             }
           ]

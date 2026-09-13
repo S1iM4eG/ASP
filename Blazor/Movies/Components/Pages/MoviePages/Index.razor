@@ -16,7 +16,7 @@
 
 <QuickGrid Class="table" Items="context.Movie">
     @* <PropertyColumn Property="movie => movie.Title" /> *@
-    <TemplateColumn Context="movie">
+    <TemplateColumn Context="movie" Title="Title">
         <a href="@($"movies/Details?ID={movie.ID}")">@movie.Title</a>
     </TemplateColumn>
     <PropertyColumn Property="movie => movie.RealeaseDate" />
