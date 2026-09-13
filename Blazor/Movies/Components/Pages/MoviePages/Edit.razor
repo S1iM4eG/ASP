@@ -72,7 +72,7 @@ else
 
         if (Movie is null)
         {
-            NavigationManager.NotFound();
+            NavigationManager.NavigateTo("notfound");
         }
     }
 
@@ -91,7 +91,7 @@ else
         {
             if (!MovieExists(Movie!.ID))
             {
-                NavigationManager.NotFound();
+                NavigationManager.NavigateTo("notfound");
             }
             else
             {
@@ -99,7 +99,7 @@ else
             }
         }
 
-        NavigationManager.NavigateTo("/movies");
+        NavigationManager.NavigateTo($"/movies/details?id={Movie.ID}");
     }
 
     private bool MovieExists(int id)
