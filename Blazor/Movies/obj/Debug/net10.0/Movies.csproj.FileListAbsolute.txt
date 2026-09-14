@@ -224,5 +224,6 @@ C:\Users\S1iM\source\repos\ASP\Blazor\Movies\obj\Debug\net10.0\Movies.csproj.Up2
 C:\Users\S1iM\source\repos\ASP\Blazor\Movies\bin\Debug\net10.0\dotnet-tools.json
 C:\Users\S1iM\source\repos\ASP\Blazor\Movies\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 C:\Users\S1iM\source\repos\ASP\Blazor\Movies\obj\Debug\net10.0\scopedcss\Components\Pages\MoviePages\Details.razor.rz.scp.css
-C:\Users\S1iM\source\repos\ASP\Blazor\Movies\obj\Debug\net10.0\compressed\ar0pv2ogck-{0}-s1dskid9wo-s1dskid9wo.gz
-C:\Users\S1iM\source\repos\ASP\Blazor\Movies\obj\Debug\net10.0\compressed\ckexoel6xs-{0}-vrnypfuf0t-vrnypfuf0t.gz
+C:\Users\S1iM\source\repos\ASP\Blazor\Movies\obj\Debug\net10.0\scopedcss\Components\Pages\MoviePages\Edit.razor.rz.scp.css
+C:\Users\S1iM\source\repos\ASP\Blazor\Movies\obj\Debug\net10.0\compressed\ar0pv2ogck-{0}-s4cb5nev5s-s4cb5nev5s.gz
+C:\Users\S1iM\source\repos\ASP\Blazor\Movies\obj\Debug\net10.0\compressed\ckexoel6xs-{0}-760gum3vyz-760gum3vyz.gz

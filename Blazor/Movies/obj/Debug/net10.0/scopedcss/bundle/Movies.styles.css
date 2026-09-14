@@ -371,3 +371,12 @@ main[b-0d7mpe8t3j] {
 .poster-container[b-4bz4x0twmv]{
 	margin: 5%;
 }
+/* /Components/Pages/MoviePages/Edit.razor.rz.scp.css */
+.container[b-3jk9rtf961] {
+	display: flex;
+	justify-content: space-between;
+}
+
+.poster-container[b-3jk9rtf961] {
+	margin-left: 35%;
+}

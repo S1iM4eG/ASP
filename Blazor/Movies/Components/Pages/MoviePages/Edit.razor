@@ -18,45 +18,55 @@ else
 {
     <h1>@Movie.Title edit</h1>
     <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-6">
             <EditForm method="post" Model="Movie" OnValidSubmit="UpdateMovie" FormName="edit" Enhance>
                 <DataAnnotationsValidator />
-                <ValidationSummary role="alert"/>
+                <ValidationSummary role="alert" />
+
                 <input type="hidden" name="Movie.ID" value="@Movie.ID" />
+
                 <div class="mb-3">
                     <label for="title" class="form-label">Title:</label>
                     <InputText id="title" @bind-Value="Movie.Title" class="form-control" />
                     <ValidationMessage For="() => Movie.Title" class="text-danger" />
                 </div>
+
                 <div class="mb-3">
                     <label for="realeasedate" class="form-label">RealeaseDate:</label>
                     <InputDate id="realeasedate" @bind-Value="Movie.RealeaseDate" class="form-control" />
                     <ValidationMessage For="() => Movie.RealeaseDate" class="text-danger" />
                 </div>
+
                 <div class="mb-3">
                     <label for="genre" class="form-label">Genre:</label>
                     <InputText id="genre" @bind-Value="Movie.Genre" class="form-control" />
                     <ValidationMessage For="() => Movie.Genre" class="text-danger" />
                 </div>
+
                 <div class="mb-3">
                     <label for="url" class="form-label">URL:</label>
                     <InputText id="url" @bind-Value="Movie.URL" class="form-control" />
                     <ValidationMessage For="() => Movie.URL" class="text-danger" />
                 </div>
                 <div class="mb-3">
-                    <label for="poster" class="form-label">Poster:</label>
+                    <label for="poster" class="form-label">Poster URL:</label>
                     <InputText id="poster" @bind-Value="Movie.Poster" class="form-control" />
                     <ValidationMessage For="() => Movie.Poster" class="text-danger" />
                 </div>
-                <button type="submit" class="btn btn-primary">Save</button>
+                <div class="d-flex gap-2">
+                    <button type="submit" class="btn btn-primary">Save</button>
+                    <a href="/movies" class="btn btn-outline-secondary">Back to List</a>
+                </div>
             </EditForm>
+        </div>
+
+        <div class="col-md-5">
+            <div class="poster-container">
+                <img src="@Movie.Poster" alt="@Movie.Title poster" class="img-fluid w-100" />
+            </div>
         </div>
     </div>
 }
-
-<div>
-    <a href="/movies">Back to List</a>
-</div>
 
 @code {
     [SupplyParameterFromQuery]
@@ -106,5 +116,9 @@ else
     {
         using var context = DbFactory.CreateDbContext();
         return context.Movie.Any(e => e.ID == id);
+    }
+    private void BackButton()
+    {
+        NavigationManager.NavigateTo("/movies");
     }
 }
