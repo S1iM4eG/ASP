@@ -169,8 +169,6 @@ C:\Users\S1iM\source\repos\ASP\Blazor\Blazor\obj\Debug\net10.0\refint\Blazor.dll
 C:\Users\S1iM\source\repos\ASP\Blazor\Blazor\obj\Debug\net10.0\Blazor.pdb
 C:\Users\S1iM\source\repos\ASP\Blazor\Blazor\obj\Debug\net10.0\Blazor.genruntimeconfig.cache
 C:\Users\S1iM\source\repos\ASP\Blazor\Blazor\obj\Debug\net10.0\ref\Blazor.dll
-C:\Users\S1iM\source\repos\ASP\Blazor\Blazor\obj\Debug\net10.0\compressed\erw4yqnkn2-{0}-wyu7y4jcvb-wyu7y4jcvb.gz
-C:\Users\S1iM\source\repos\ASP\Blazor\Blazor\obj\Debug\net10.0\compressed\vhezwagefq-{0}-wfr2hj6447-wfr2hj6447.gz
 C:\Users\S1iM\source\repos\ASP\Blazor\Blazor\obj\Debug\net10.0\scopedcss\Components\Pages\Power.razor.rz.scp.css
 C:\Users\S1iM\source\repos\ASP\Blazor\Blazor\obj\Debug\net10.0\compressed\d5i49gumgl-{0}-giaf7g8qr7-giaf7g8qr7.gz
 C:\Users\S1iM\source\repos\ASP\Blazor\Blazor\obj\Debug\net10.0\compressed\uc7v3xe9v2-{0}-1hluielso6-1hluielso6.gz
@@ -178,3 +176,6 @@ C:\Users\S1iM\source\repos\ASP\Blazor\Blazor\obj\Debug\net10.0\compressed\4e7m3u
 C:\Users\S1iM\source\repos\ASP\Blazor\Blazor\obj\Debug\net10.0\compressed\rrksf9i78o-{0}-mnwmg7ewl3-mnwmg7ewl3.gz
 C:\Users\S1iM\source\repos\ASP\Blazor\Blazor\obj\Debug\net10.0\compressed\o15ig57xk3-{0}-yzxrhwmsb3-yzxrhwmsb3.gz
 C:\Users\S1iM\source\repos\ASP\Blazor\Blazor\obj\Debug\net10.0\compressed\wdm1sn9eao-{0}-yzxrhwmsb3-yzxrhwmsb3.gz
+C:\Users\S1iM\source\repos\ASP\Blazor\Blazor\obj\Debug\net10.0\compressed\erw4yqnkn2-{0}-9hsif5t8mt-9hsif5t8mt.gz
+C:\Users\S1iM\source\repos\ASP\Blazor\Blazor\obj\Debug\net10.0\compressed\vhezwagefq-{0}-dwu72t6gfx-dwu72t6gfx.gz
+C:\Users\S1iM\source\repos\ASP\Blazor\Blazor\obj\Debug\net10.0\Blazor.csproj.Up2Date

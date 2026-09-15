@@ -11,32 +11,62 @@
 
 <h1>Index</h1>
 
-<p>
-    <a href="movies/create">Create New</a>
-</p>
+<div class="input">
+    <p>
+        <a href="movies/create" class="btn btn-primary">Добавить</a>
+    </p>
 
-<QuickGrid Class="table" Items="context.Movie", Pagination="pagination">
+    <form action="/movies">
+        <input type="search" name="titleFilter" />
+        <input type="submit" value="Найти" />
+    </form>
+
+    <div>
+        Items per page:
+        <input type="number" min="1" max="50" class="form-control w-auto" @bind="ItemsPerPage" />
+    </div>
+</div>
+<QuickGrid Class="table" Items="FilteredMovie" , Pagination="pagination">
     @* <PropertyColumn Property="movie => movie.Title" /> *@
-    <TemplateColumn Context="movie" Title="Title">
+    <TemplateColumn Context="movie" Title="Название фильма">
         <a href="@($"movies/Details?ID={movie.ID}")">@movie.Title</a>
     </TemplateColumn>
     <PropertyColumn Property="movie => movie.RealeaseDate" />
     <PropertyColumn Property="movie => movie.Genre" />
 
-   @*  <TemplateColumn Context="movie">
+    @*  <TemplateColumn Context="movie">
         <a href="@($"movies/details?id={movie.ID}")">Details</a> |
     </TemplateColumn> *@
 </QuickGrid>
-    <Paginator State="pagination"/>
+<Paginator State="pagination" />
 
 @code {
     private MoviesContext context = default!;
-
+    [SupplyParameterFromQuery]
+    string? titleFilter { get; set; }
     PaginationState pagination = new PaginationState { ItemsPerPage = 3 };
+    private int itemsPerPage = 3;
+    private int ItemsPerPage
+    {
+        get => itemsPerPage;
+        set
+        {
+            if (value < 1) value = 1;
+            if (itemsPerPage == value) return;
+
+            itemsPerPage = value;
+            pagination.ItemsPerPage = value;
+
+            pagination.SetCurrentPageIndexAsync(0);
+        }
+    }
+
     protected override void OnInitialized()
     {
         context = DbFactory.CreateDbContext();
     }
 
     public async ValueTask DisposeAsync() => await context.DisposeAsync();
+
+    IQueryable<Movie> FilteredMovie => context.Movie.Where(m => m.Title.Contains(titleFilter ?? string.Empty));
 }

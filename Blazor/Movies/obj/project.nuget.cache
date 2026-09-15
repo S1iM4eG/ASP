@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "xb9Ne2r0OJs=",
+  "dgSpecHash": "tR4j6y1OK9o=",
   "success": true,
   "projectFilePath": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Movies\\Movies.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\S1iM\\.nuget\\packages\\azure.core\\1.50.0\\azure.core.1.50.0.nupkg.sha512",
     "C:\\Users\\S1iM\\.nuget\\packages\\azure.identity\\1.17.1\\azure.identity.1.17.1.nupkg.sha512",
     "C:\\Users\\S1iM\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
-    "C:\\Users\\S1iM\\.nuget\\packages\\microsoft.aspnetcore.app.internal.assets\\10.0.11\\microsoft.aspnetcore.app.internal.assets.10.0.11.nupkg.sha512",
+    "C:\\Users\\S1iM\\.nuget\\packages\\microsoft.aspnetcore.app.internal.assets\\10.0.12\\microsoft.aspnetcore.app.internal.assets.10.0.12.nupkg.sha512",
     "C:\\Users\\S1iM\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\10.0.11\\microsoft.aspnetcore.components.quickgrid.10.0.11.nupkg.sha512",
     "C:\\Users\\S1iM\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid.entityframeworkadapter\\10.0.11\\microsoft.aspnetcore.components.quickgrid.entityframeworkadapter.10.0.11.nupkg.sha512",
     "C:\\Users\\S1iM\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\10.0.11\\microsoft.aspnetcore.diagnostics.entityframeworkcore.10.0.11.nupkg.sha512",

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "SXmKp1sIOS8=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\MyAcademy\\MyAcademy.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\S1iM\\.nuget\\packages\\microsoft.aspnetcore.app.internal.assets\\10.0.12\\microsoft.aspnetcore.app.internal.assets.10.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}

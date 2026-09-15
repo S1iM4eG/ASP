@@ -45,10 +45,9 @@ wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
 wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
 wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
 Components\Layout\ReconnectModal.razor.js
-C:\Users\S1iM\.nuget\packages\microsoft.aspnetcore.app.internal.assets\10.0.11\build\..\_framework\blazor.web.js
-C:\Users\S1iM\.nuget\packages\microsoft.aspnetcore.app.internal.assets\10.0.11\build\..\_framework\blazor.server.js
-C:\Users\S1iM\.nuget\packages\microsoft.aspnetcore.app.internal.assets\10.0.11\_framework\blazor.server.js
-C:\Users\S1iM\.nuget\packages\microsoft.aspnetcore.app.internal.assets\10.0.11\_framework\blazor.web.js
+C:\Users\S1iM\.nuget\packages\microsoft.aspnetcore.app.internal.assets\10.0.12\build\..\_framework\blazor.web.js
+C:\Users\S1iM\.nuget\packages\microsoft.aspnetcore.app.internal.assets\10.0.12\build\..\_framework\blazor.server.js
+C:\Users\S1iM\.nuget\packages\microsoft.aspnetcore.app.internal.assets\10.0.12\_framework\blazor.web.js
 C:\Users\S1iM\source\repos\ASP\Blazor\Movies\Components\Layout\ReconnectModal.razor.js
 C:\Users\S1iM\source\repos\ASP\Blazor\Movies\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
 C:\Users\S1iM\source\repos\ASP\Blazor\Movies\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
@@ -93,5 +92,6 @@ C:\Users\S1iM\source\repos\ASP\Blazor\Movies\wwwroot\lib\bootstrap\dist\css\boot
 C:\Users\S1iM\source\repos\ASP\Blazor\Movies\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
 C:\Users\S1iM\source\repos\ASP\Blazor\Movies\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
 C:\Users\S1iM\source\repos\ASP\Blazor\Movies\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+C:\Users\S1iM\.nuget\packages\microsoft.aspnetcore.app.internal.assets\10.0.12\_framework\blazor.server.js
 C:\Users\S1iM\source\repos\ASP\Blazor\Movies\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 C:\Users\S1iM\source\repos\ASP\Blazor\Movies\wwwroot\app.css

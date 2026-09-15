@@ -70,8 +70,6 @@ C:\Users\S1iM\source\repos\ASP\Blazor\Movies\obj\Debug\net10.0\compressed\uc2qab
 C:\Users\S1iM\source\repos\ASP\Blazor\Movies\obj\Debug\net10.0\compressed\ctsnwwceli-{0}-63fj8s7r0e-63fj8s7r0e.gz
 C:\Users\S1iM\source\repos\ASP\Blazor\Movies\obj\Debug\net10.0\compressed\6x5g4kqbrq-{0}-0j3bgjxly4-0j3bgjxly4.gz
 C:\Users\S1iM\source\repos\ASP\Blazor\Movies\obj\Debug\net10.0\compressed\5uya1som1a-{0}-abdmv1u4y3-abdmv1u4y3.gz
-C:\Users\S1iM\source\repos\ASP\Blazor\Movies\obj\Debug\net10.0\compressed\9x3vt4w048-{0}-wyu7y4jcvb-wyu7y4jcvb.gz
-C:\Users\S1iM\source\repos\ASP\Blazor\Movies\obj\Debug\net10.0\compressed\swpocer7m6-{0}-wfr2hj6447-wfr2hj6447.gz
 C:\Users\S1iM\source\repos\ASP\Blazor\Movies\obj\Debug\net10.0\staticwebassets.build.json
 C:\Users\S1iM\source\repos\ASP\Blazor\Movies\obj\Debug\net10.0\staticwebassets.build.json.cache
 C:\Users\S1iM\source\repos\ASP\Blazor\Movies\obj\Debug\net10.0\staticwebassets.development.json
@@ -224,5 +222,9 @@ C:\Users\S1iM\source\repos\ASP\Blazor\Movies\obj\Debug\net10.0\Movies.csproj.Up2
 C:\Users\S1iM\source\repos\ASP\Blazor\Movies\bin\Debug\net10.0\dotnet-tools.json
 C:\Users\S1iM\source\repos\ASP\Blazor\Movies\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 C:\Users\S1iM\source\repos\ASP\Blazor\Movies\obj\Debug\net10.0\scopedcss\Components\Pages\MoviePages\Details.razor.rz.scp.css
-C:\Users\S1iM\source\repos\ASP\Blazor\Movies\obj\Debug\net10.0\compressed\ar0pv2ogck-{0}-s1dskid9wo-s1dskid9wo.gz
-C:\Users\S1iM\source\repos\ASP\Blazor\Movies\obj\Debug\net10.0\compressed\ckexoel6xs-{0}-vrnypfuf0t-vrnypfuf0t.gz
+C:\Users\S1iM\source\repos\ASP\Blazor\Movies\obj\Debug\net10.0\scopedcss\Components\Pages\MoviePages\Edit.razor.rz.scp.css
+C:\Users\S1iM\source\repos\ASP\Blazor\Movies\obj\Debug\net10.0\compressed\9x3vt4w048-{0}-9hsif5t8mt-9hsif5t8mt.gz
+C:\Users\S1iM\source\repos\ASP\Blazor\Movies\obj\Debug\net10.0\compressed\swpocer7m6-{0}-dwu72t6gfx-dwu72t6gfx.gz
+C:\Users\S1iM\source\repos\ASP\Blazor\Movies\obj\Debug\net10.0\scopedcss\Components\Pages\MoviePages\Index.razor.rz.scp.css
+C:\Users\S1iM\source\repos\ASP\Blazor\Movies\obj\Debug\net10.0\compressed\ar0pv2ogck-{0}-iixrc08lm9-iixrc08lm9.gz
+C:\Users\S1iM\source\repos\ASP\Blazor\Movies\obj\Debug\net10.0\compressed\ckexoel6xs-{0}-3klujtv8gm-3klujtv8gm.gz
