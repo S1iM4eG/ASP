@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E4F85B53-9723-4528-AFA5-B2168D648884}|Academy\\Academy.csproj|c:\\users\\s1im\\source\\repos\\asp\\blazor\\academy\\components\\pages\\directionpages\\details.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E4F85B53-9723-4528-AFA5-B2168D648884}|Academy\\Academy.csproj|solutionrelative:academy\\components\\pages\\directionpages\\details.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E4F85B53-9723-4528-AFA5-B2168D648884}|Academy\\Academy.csproj|c:\\users\\s1im\\source\\repos\\asp\\blazor\\academy\\components\\pages\\directionpages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E4F85B53-9723-4528-AFA5-B2168D648884}|Academy\\Academy.csproj|solutionrelative:academy\\components\\pages\\directionpages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E4F85B53-9723-4528-AFA5-B2168D648884}|Academy\\Academy.csproj|c:\\users\\s1im\\source\\repos\\asp\\blazor\\academy\\models\\direction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4F85B53-9723-4528-AFA5-B2168D648884}|Academy\\Academy.csproj|solutionrelative:academy\\models\\direction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E4F85B53-9723-4528-AFA5-B2168D648884}|Academy\\Academy.csproj|c:\\users\\s1im\\source\\repos\\asp\\blazor\\academy\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4F85B53-9723-4528-AFA5-B2168D648884}|Academy\\Academy.csproj|solutionrelative:academy\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E4F85B53-9723-4528-AFA5-B2168D648884}|Academy\\Academy.csproj|c:\\users\\s1im\\source\\repos\\asp\\blazor\\academy\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E4F85B53-9723-4528-AFA5-B2168D648884}|Academy\\Academy.csproj|solutionrelative:academy\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E4F85B53-9723-4528-AFA5-B2168D648884}|Academy\\Academy.csproj|c:\\users\\s1im\\source\\repos\\asp\\blazor\\academy\\wwwroot\\controls.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E4F85B53-9723-4528-AFA5-B2168D648884}|Academy\\Academy.csproj|solutionrelative:academy\\wwwroot\\controls.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E4F85B53-9723-4528-AFA5-B2168D648884}|Academy\\Academy.csproj|c:\\users\\s1im\\source\\repos\\asp\\blazor\\academy\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{E4F85B53-9723-4528-AFA5-B2168D648884}|Academy\\Academy.csproj|solutionrelative:academy\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{E4F85B53-9723-4528-AFA5-B2168D648884}|Academy\\Academy.csproj|c:\\users\\s1im\\source\\repos\\asp\\blazor\\academy\\components\\pages\\directionpages\\index.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E4F85B53-9723-4528-AFA5-B2168D648884}|Academy\\Academy.csproj|solutionrelative:academy\\components\\pages\\directionpages\\index.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,74 +25,9 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "DockedWidth": 134,
+          "SelectedChildIndex": -1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Details.razor",
-              "DocumentMoniker": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Academy\\Components\\Pages\\DirectionPages\\Details.razor",
-              "RelativeDocumentMoniker": "Academy\\Components\\Pages\\DirectionPages\\Details.razor",
-              "ToolTip": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Academy\\Components\\Pages\\DirectionPages\\Details.razor*",
-              "RelativeToolTip": "Academy\\Components\\Pages\\DirectionPages\\Details.razor*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-09-21T17:41:08.312Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.razor",
-              "DocumentMoniker": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Academy\\Components\\Pages\\DirectionPages\\Index.razor",
-              "RelativeDocumentMoniker": "Academy\\Components\\Pages\\DirectionPages\\Index.razor",
-              "ToolTip": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Academy\\Components\\Pages\\DirectionPages\\Index.razor",
-              "RelativeToolTip": "Academy\\Components\\Pages\\DirectionPages\\Index.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-09-21T15:47:26.56Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Academy\\appsettings.json",
-              "RelativeDocumentMoniker": "Academy\\appsettings.json",
-              "ToolTip": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Academy\\appsettings.json",
-              "RelativeToolTip": "Academy\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-09-21T15:03:58.846Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "NavMenu.razor",
-              "DocumentMoniker": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Academy\\Components\\Layout\\NavMenu.razor",
-              "RelativeDocumentMoniker": "Academy\\Components\\Layout\\NavMenu.razor",
-              "ToolTip": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Academy\\Components\\Layout\\NavMenu.razor",
-              "RelativeToolTip": "Academy\\Components\\Layout\\NavMenu.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-09-21T14:59:07.576Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Direction.cs",
-              "DocumentMoniker": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Academy\\Models\\Direction.cs",
-              "RelativeDocumentMoniker": "Academy\\Models\\Direction.cs",
-              "ToolTip": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Academy\\Models\\Direction.cs",
-              "RelativeToolTip": "Academy\\Models\\Direction.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-21T14:45:57.302Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -104,6 +35,68 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 266,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Academy\\Components\\App.razor",
+              "RelativeDocumentMoniker": "Academy\\Components\\App.razor",
+              "ToolTip": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Academy\\Components\\App.razor",
+              "RelativeToolTip": "Academy\\Components\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-21T18:42:47.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "controls.css",
+              "DocumentMoniker": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Academy\\wwwroot\\controls.css",
+              "RelativeDocumentMoniker": "Academy\\wwwroot\\controls.css",
+              "ToolTip": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Academy\\wwwroot\\controls.css",
+              "RelativeToolTip": "Academy\\wwwroot\\controls.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-09-21T18:41:41.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Academy\\Components\\Pages\\DirectionPages\\Index.razor",
+              "RelativeDocumentMoniker": "Academy\\Components\\Pages\\DirectionPages\\Index.razor",
+              "ToolTip": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Academy\\Components\\Pages\\DirectionPages\\Index.razor*",
+              "RelativeToolTip": "Academy\\Components\\Pages\\DirectionPages\\Index.razor*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-21T18:30:01.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.razor.css",
+              "DocumentMoniker": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Academy\\Components\\Pages\\DirectionPages\\Index.razor.css",
+              "RelativeDocumentMoniker": "Academy\\Components\\Pages\\DirectionPages\\Index.razor.css",
+              "ToolTip": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Academy\\Components\\Pages\\DirectionPages\\Index.razor.css",
+              "RelativeToolTip": "Academy\\Components\\Pages\\DirectionPages\\Index.razor.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-09-21T18:18:21.04Z",
+              "EditorCaption": ""
             }
           ]
         }

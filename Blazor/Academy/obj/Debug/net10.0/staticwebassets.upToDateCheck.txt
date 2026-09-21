@@ -1,4 +1,5 @@
 wwwroot\app.css
+wwwroot\controls.css
 wwwroot\favicon.png
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
@@ -95,3 +96,4 @@ C:\Users\S1iM\source\repos\ASP\Blazor\Academy\wwwroot\lib\bootstrap\dist\css\boo
 C:\Users\S1iM\source\repos\ASP\Blazor\Academy\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
 C:\Users\S1iM\source\repos\ASP\Blazor\Academy\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 C:\Users\S1iM\source\repos\ASP\Blazor\Academy\wwwroot\app.css
+C:\Users\S1iM\source\repos\ASP\Blazor\Academy\wwwroot\controls.css

@@ -72,7 +72,6 @@ C:\Users\S1iM\source\repos\ASP\Blazor\Academy\obj\Debug\net10.0\compressed\5bz0q
 C:\Users\S1iM\source\repos\ASP\Blazor\Academy\obj\Debug\net10.0\compressed\xhs7wghoo4-{0}-abdmv1u4y3-abdmv1u4y3.gz
 C:\Users\S1iM\source\repos\ASP\Blazor\Academy\obj\Debug\net10.0\compressed\s45tzt356q-{0}-9hsif5t8mt-9hsif5t8mt.gz
 C:\Users\S1iM\source\repos\ASP\Blazor\Academy\obj\Debug\net10.0\compressed\civw190uyf-{0}-dwu72t6gfx-dwu72t6gfx.gz
-C:\Users\S1iM\source\repos\ASP\Blazor\Academy\obj\Debug\net10.0\compressed\5u38zn264x-{0}-z9pqaslm78-z9pqaslm78.gz
 C:\Users\S1iM\source\repos\ASP\Blazor\Academy\obj\Debug\net10.0\staticwebassets.build.json
 C:\Users\S1iM\source\repos\ASP\Blazor\Academy\obj\Debug\net10.0\staticwebassets.build.json.cache
 C:\Users\S1iM\source\repos\ASP\Blazor\Academy\obj\Debug\net10.0\staticwebassets.development.json
@@ -223,4 +222,7 @@ C:\Users\S1iM\source\repos\ASP\Blazor\Academy\bin\Debug\net10.0\runtimes\win-x64
 C:\Users\S1iM\source\repos\ASP\Blazor\Academy\bin\Debug\net10.0\runtimes\win-x86\native\msalruntime_x86.dll
 C:\Users\S1iM\source\repos\ASP\Blazor\Academy\obj\Debug\net10.0\compressed\unlu0xluo6-{0}-eu7w3d5g1a-eu7w3d5g1a.gz
 C:\Users\S1iM\source\repos\ASP\Blazor\Academy\obj\Debug\net10.0\compressed\1x45lb54o8-{0}-boiwgh0w5b-boiwgh0w5b.gz
-C:\Users\S1iM\source\repos\ASP\Blazor\Academy\obj\Debug\net10.0\compressed\her5hxa7et-{0}-e3j4gnoteg-e3j4gnoteg.gz
+C:\Users\S1iM\source\repos\ASP\Blazor\Academy\obj\Debug\net10.0\scopedcss\Components\Pages\DirectionPages\Index.razor.rz.scp.css
+C:\Users\S1iM\source\repos\ASP\Blazor\Academy\obj\Debug\net10.0\compressed\her5hxa7et-{0}-9cauzqycr8-9cauzqycr8.gz
+C:\Users\S1iM\source\repos\ASP\Blazor\Academy\obj\Debug\net10.0\compressed\5u38zn264x-{0}-tx9bxyg295-tx9bxyg295.gz
+C:\Users\S1iM\source\repos\ASP\Blazor\Academy\obj\Debug\net10.0\compressed\emilsqnwrj-{0}-o1z7awloqt-o1z7awloqt.gz

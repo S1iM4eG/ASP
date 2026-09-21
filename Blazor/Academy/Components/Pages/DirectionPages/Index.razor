@@ -1,4 +1,6 @@
 @page "/directions"
+@rendermode InteractiveServer
+
 @using Microsoft.AspNetCore.Components.QuickGrid
 @using Microsoft.EntityFrameworkCore
 @using Academy.Models
@@ -6,26 +8,41 @@
 @inject IDbContextFactory<AcademyContext> DbFactory
 @inject NavigationManager NavigationManager
 
-<PageTitle>Index</PageTitle>
+<PageTitle>Directions</PageTitle>
 
-<h1>Index</h1>
+<h1>Направление обучения</h1>
+<div class="controls">
+    <p>
+        <a href="directions/create" class="btn btn-primary">Добавить</a>
+    </p>
+    <div>
+        <lable for="items-per-page">Items per page:</lable>
+        <select @bind="pagination.ItemsPerPage" id="items-per-page">
+            <option value="3">3</option>
+            <option value="5">5</option>
+            <option value="8">8</option>
+            <option value="10">10</option>
+        </select>
+    </div>
+</div>
 
-<p>
-    <a href="directions/create">Create New</a>
-</p>
+<div>
+    <div class="grid-container">
+        <QuickGrid Class="table" Items="context.Directions" Pagination="pagination">
+            <PropertyColumn Property="direction => direction.direction_id" Class="direction-id" />
+            <PropertyColumn Property="direction => direction.direction_name" Class="direction-name" />
 
-<QuickGrid Class="table" Items="context.Directions">
-    <PropertyColumn Property="direction => direction.direction_id" />
-    <PropertyColumn Property="direction => direction.direction_name" />
-
-    <TemplateColumn Context="direction">
-        <a href="@($"directions/details?direction_id={direction.direction_id}")">Details</a> |
-    </TemplateColumn>
-</QuickGrid>
+            <TemplateColumn Context="direction">
+                <a href="@($"directions/details?direction_id={direction.direction_id}")">Details</a> |
+            </TemplateColumn>
+        </QuickGrid>
+    </div>
+    <Paginator State="pagination" />
+</div>
 
 @code {
     private AcademyContext context = default!;
-
+    PaginationState pagination = new PaginationState { ItemsPerPage = 5 };
     protected override void OnInitialized()
     {
         context = DbFactory.CreateDbContext();

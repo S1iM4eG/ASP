@@ -55,10 +55,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xEaXJlY3Rpb25QYWdlc1xFZGl0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/S1iM/source/repos/ASP/Blazor/Academy/Components/Pages/DirectionPages/Index.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xEaXJlY3Rpb25QYWdlc1xJbmRleC5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/S1iM/source/repos/ASP/Blazor/Academy/Components/Pages/Error.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -94,3 +90,7 @@ build_metadata.AdditionalFiles.CssScope = b-c8a6wvxz62
 [C:/Users/S1iM/source/repos/ASP/Blazor/Academy/Components/Layout/ReconnectModal.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcUmVjb25uZWN0TW9kYWwucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-8xb9ya1mni
+
+[C:/Users/S1iM/source/repos/ASP/Blazor/Academy/Components/Pages/DirectionPages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xEaXJlY3Rpb25QYWdlc1xJbmRleC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-w0y0e28j7f
