@@ -7,6 +7,9 @@
         public Week(int days) {
             this.days = days;
         }
+        public Week(int? days) {
+            this.days = (int)days;
+        }
         public override string ToString()
         {
             List<string> list = new List<string>();

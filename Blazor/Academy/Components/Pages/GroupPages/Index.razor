@@ -21,8 +21,9 @@
     <PropertyColumn Property="group => group.direction" />
     <PropertyColumn Property="group => group.start_date" />
     <PropertyColumn Property="group => group.start_time" />
-    <PropertyColumn Property="group => group.learning_days" />
-
+    <PropertyColumn Property="group => new Week((int)group.learning_days)" />
+@*     <PropertyColumn Property="group => group.learning_days" />
+ *@
     <TemplateColumn Context="group">
         <a href="@($"groups/details?group_id={group.group_id}")">Details</a>
     </TemplateColumn>
