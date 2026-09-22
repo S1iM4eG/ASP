@@ -46,7 +46,7 @@
     protected override async Task OnInitializedAsync()
     {
         using var context = DbFactory.CreateDbContext();
-        group = await context.Group.FirstOrDefaultAsync(m => m.group_id == group_id);
+        group = await context.Groups.FirstOrDefaultAsync(m => m.group_id == group_id);
 
         if (group is null)
         {

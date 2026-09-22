@@ -1,0 +1,9 @@
+[b-w0y0e28j7f] .direction-id{
+	width:10%;
+}
+[b-w0y0e28j7f] .direction-name {
+	width: 70%;
+}
+[b-w0y0e28j7f] .grid-container{
+	height:30vh; /* vh - Viewport Height (Высота видимой части страницы)*/
+}

@@ -3,6 +3,7 @@
 @using Academy.Models
 @inject IDbContextFactory<AcademyContext> DbFactory
 @inject NavigationManager NavigationManager
+@rendermode InteractiveServer
 
 <PageTitle>Edit</PageTitle>
 
@@ -75,7 +76,7 @@ else
     protected override async Task OnInitializedAsync()
     {
         using var context = DbFactory.CreateDbContext();
-        Group ??= await context.Group.FirstOrDefaultAsync(m => m.group_id == group_id);
+        Group ??= await context.Groups.FirstOrDefaultAsync(m => m.group_id == group_id);
 
         if (Group is null)
         {
@@ -112,6 +113,6 @@ else
     private bool GroupExists(int group_id)
     {
         using var context = DbFactory.CreateDbContext();
-        return context.Group.Any(e => e.group_id == group_id);
+        return context.Groups.Any(e => e.group_id == group_id);
     }
 }
