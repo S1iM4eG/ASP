@@ -1,9 +1,10 @@
-@page "/groups/edit"
+﻿@page "/groups/edit"
+@rendermode InteractiveServer
+
 @using Microsoft.EntityFrameworkCore
 @using Academy.Models
-@inject IDbContextFactory<AcademyContext> DbFactory
+@inject IDbContextFactory<Academy.Data.AcademyContext> DbFactory
 @inject NavigationManager NavigationManager
-@rendermode InteractiveServer
 
 <PageTitle>Edit</PageTitle>
 
@@ -13,49 +14,55 @@
 <hr />
 @if (Group is null)
 {
-    <p><em>Loading...</em></p>
+	<p><em>Loading...</em></p>
 }
 else
 {
-    <div class="row">
-        <div class="col-md-4">
-            <EditForm method="post" Model="Group" OnValidSubmit="UpdateGroup" FormName="edit" Enhance>
-                <DataAnnotationsValidator />
-                <ValidationSummary role="alert"/>
-                <input type="hidden" name="Group.group_id" value="@Group.group_id" />
-                <div class="mb-3">
-                <span class="text-danger">*</span>
-                    <label for="group_name" class="form-label">group_name:</label>
-                    <InputText id="group_name" @bind-Value="Group.group_name" class="form-control" aria-required="true"/>
-                    <ValidationMessage For="() => Group.group_name" class="text-danger" />
-                </div>
-                <div class="mb-3">
-                <span class="text-danger">*</span>
-                    <label for="direction" class="form-label">direction:</label>
-                    <InputNumber id="direction" @bind-Value="Group.direction" class="form-control" aria-required="true"/>
-                    <ValidationMessage For="() => Group.direction" class="text-danger" />
+	<div class="row">
+		<div class="col-md-4">
+			<EditForm method="post" Model="Group" OnValidSubmit="UpdateGroup" FormName="edit" Enhance>
+				<DataAnnotationsValidator />
+				<ValidationSummary role="alert"/>
+				<input type="hidden" name="Group.group_id" value="@Group.group_id" />
+				<div class="mb-3">
+					<span class="text-danger">*</span>
+					<label for="group_name" class="form-label">group_name:</label>
+					<InputText id="group_name" @bind-Value="Group.group_name" class="form-control" aria-required="true"/>
+					<ValidationMessage For="() => Group.group_name" class="text-danger" />
+				</div>
+				<div class="mb-3">
+					<span class="text-danger">*</span>
+					<label for="direction" class="form-label">direction:</label>
+					@* <InputNumber id="direction" @bind-Value="Group.direction" class="form-control" aria-required="true"/> *@
+					<InputSelect @bind-Value="Group.direction" class="form-control">
+						@using (Academy.Data.AcademyContext context = DbFactory.CreateDbContext())
+						{
+							@foreach (Direction direction in context.Directions)
+							{
+								<option value="@direction.direction_id">@direction.direction_name</option>
+							}
+						}
+					</InputSelect>
+					<ValidationMessage For="() => Group.direction" class="text-danger" />
                 </div>
                 <div class="mb-3">
                     <label for="start_date" class="form-label">start_date:</label>
                     <InputDate id="start_date" @bind-Value="Group.start_date" class="form-control" />
                     <ValidationMessage For="() => Group.start_date" class="text-danger" />
                 </div>
+
                 <div class="mb-3">
                     <label for="start_time" class="form-label">start_time:</label>
-                    <InputDate id="start_time" @bind-Value="Group.start_time" class="form-control" />
+                    <InputDate Type="InputDateType.Time" id="start_time" @bind-Value="Group.start_time" class="form-control" />
                     <ValidationMessage For="() => Group.start_time" class="text-danger" />
                 </div>
-                <div class="mb-3">
+                
+				<div class="mb-3">
                     <label for="learning_days" class="form-label">learning_days:</label>
                     <InputNumber id="learning_days" @bind-Value="Group.learning_days" class="form-control" />
                     <ValidationMessage For="() => Group.learning_days" class="text-danger" />
                 </div>
-              @*   <div class="mb-3">
-                    <label for="direction" class="form-label">Direction:</label>
-                    <InputText id="direction" @bind-Value="Group.Direction" class="form-control" />
-                    <ValidationMessage For="() => Group.Direction" class="text-danger" />
-                </div> *@
-                <LearningDays Group="@Group" />
+				<LearningDays Group="Group" />
                 <button type="submit" class="btn btn-primary">Save</button>
             </EditForm>
         </div>
@@ -80,7 +87,7 @@ else
 
         if (Group is null)
         {
-            NavigationManager.NotFound();
+            NavigationManager.NavigateTo("notfound");
         }
     }
 
@@ -99,7 +106,7 @@ else
         {
             if (!GroupExists(Group!.group_id))
             {
-                NavigationManager.NotFound();
+                NavigationManager.NavigateTo("notfound");
             }
             else
             {
@@ -107,7 +114,7 @@ else
             }
         }
 
-        NavigationManager.NavigateTo("/groups");
+        NavigationManager.NavigateTo($"/groups/details?group_id={group_id}");
     }
 
     private bool GroupExists(int group_id)

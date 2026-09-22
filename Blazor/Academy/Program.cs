@@ -1,10 +1,11 @@
 using Academy.Components;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using Academy.Data;
 
 var builder = WebApplication.CreateBuilder(args);
-var connectionString = builder.Configuration.GetConnectionString("AcademyContext") ?? throw new InvalidOperationException("Connection string 'AcademyContext' not found.");
-
-builder.Services.AddDbContextFactory<AcademyContext>(options => options.UseSqlServer(connectionString));
+builder.Services.AddDbContextFactory<AcademyContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("AcademyContext") ?? throw new InvalidOperationException("Connection string 'AcademyContext' not found.")));
 
 builder.Services.AddQuickGridEntityFrameworkAdapter();
 
@@ -24,12 +25,12 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
     app.UseMigrationsEndPoint();
 }
-app.UseStatusCodePagesWithReExecute("/not-found", createScopeForStatusCodePages: true);
+
 app.UseHttpsRedirection();
 
+app.UseStaticFiles();
 app.UseAntiforgery();
 
-app.MapStaticAssets();
 app.MapRazorComponents<App>()
     .AddInteractiveServerRenderMode();
 
