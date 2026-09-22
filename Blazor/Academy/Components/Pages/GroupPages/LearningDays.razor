@@ -12,4 +12,16 @@
 
 @code {
     bool[] days = new bool[7];
+    [Parameter]
+    public Models.Group Group { get; set; }
+
+     void Extract() {
+        for (int i = 0; i < 7; i++) {
+            if ((Group.learning_days >> i & 1) != 0)
+                days[i] = true;
+        }
+    }
+    protected override void OnInitialized() {
+        Extract();
+    }
 }

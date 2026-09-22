@@ -225,5 +225,5 @@ C:\Users\S1iM\source\repos\ASP\Blazor\Academy\obj\Debug\net10.0\compressed\1x45l
 C:\Users\S1iM\source\repos\ASP\Blazor\Academy\obj\Debug\net10.0\scopedcss\Components\Pages\DirectionPages\Index.razor.rz.scp.css
 C:\Users\S1iM\source\repos\ASP\Blazor\Academy\obj\Debug\net10.0\compressed\emilsqnwrj-{0}-o1z7awloqt-o1z7awloqt.gz
 C:\Users\S1iM\source\repos\ASP\Blazor\Academy\obj\Debug\net10.0\scopedcss\Components\Pages\GroupPages\LearningDays.razor.rz.scp.css
-C:\Users\S1iM\source\repos\ASP\Blazor\Academy\obj\Debug\net10.0\compressed\her5hxa7et-{0}-m1nv4th1wb-m1nv4th1wb.gz
-C:\Users\S1iM\source\repos\ASP\Blazor\Academy\obj\Debug\net10.0\compressed\5u38zn264x-{0}-7nb5kv1hpx-7nb5kv1hpx.gz
+C:\Users\S1iM\source\repos\ASP\Blazor\Academy\obj\Debug\net10.0\compressed\her5hxa7et-{0}-femrhpvjn2-femrhpvjn2.gz
+C:\Users\S1iM\source\repos\ASP\Blazor\Academy\obj\Debug\net10.0\compressed\5u38zn264x-{0}-fjwrf0qpun-fjwrf0qpun.gz

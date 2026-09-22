@@ -25,5 +25,7 @@ namespace Academy.Models
 
         //Navigation properties:
         public Direction Direction { get; set; }
+       
+       
     }
 }
