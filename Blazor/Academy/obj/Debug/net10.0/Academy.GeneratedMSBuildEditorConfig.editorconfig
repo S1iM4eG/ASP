@@ -94,3 +94,7 @@ build_metadata.AdditionalFiles.CssScope = b-8xb9ya1mni
 [C:/Users/S1iM/source/repos/ASP/Blazor/Academy/Components/Pages/DirectionPages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xEaXJlY3Rpb25QYWdlc1xJbmRleC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-w0y0e28j7f
+
+[C:/Users/S1iM/source/repos/ASP/Blazor/Academy/Components/Pages/GroupPages/LearningDays.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xHcm91cFBhZ2VzXExlYXJuaW5nRGF5cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-jt4lev5iqi

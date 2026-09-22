@@ -371,3 +371,9 @@ main[b-x2zz734jdw] {
 [b-w0y0e28j7f] .grid-container{
 	height:30vh; /* vh - Viewport Height (Высота видимой части страницы)*/
 }
+/* /Components/Pages/GroupPages/LearningDays.razor.rz.scp.css */
+.learning-days[b-jt4lev5iqi] {
+	list-style:none;
+	display:flex;
+	justify-content:space-between;
+}
