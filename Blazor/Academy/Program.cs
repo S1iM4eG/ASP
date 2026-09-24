@@ -26,6 +26,8 @@ if (!app.Environment.IsDevelopment())
     app.UseMigrationsEndPoint();
 }
 
+app.UseStatusCodePagesWithReExecute("/not-found", createScopeForStatusCodePages: true);
+
 app.UseHttpsRedirection();
 
 app.UseStaticFiles();
