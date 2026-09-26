@@ -1,0 +1,7 @@
+﻿.human-container {
+	display:flex;
+	justify-content:space-between;
+}
+.photo-area > img {
+	width: 90%;
+}

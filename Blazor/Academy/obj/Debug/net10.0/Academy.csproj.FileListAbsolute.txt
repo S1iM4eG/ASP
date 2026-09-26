@@ -227,3 +227,4 @@ C:\Users\S1iM\source\repos\ASP\Blazor\Academy\obj\Debug\net10.0\compressed\emils
 C:\Users\S1iM\source\repos\ASP\Blazor\Academy\obj\Debug\net10.0\scopedcss\Components\Pages\GroupPages\LearningDays.razor.rz.scp.css
 C:\Users\S1iM\source\repos\ASP\Blazor\Academy\obj\Debug\net10.0\compressed\her5hxa7et-{0}-femrhpvjn2-femrhpvjn2.gz
 C:\Users\S1iM\source\repos\ASP\Blazor\Academy\obj\Debug\net10.0\compressed\5u38zn264x-{0}-fjwrf0qpun-fjwrf0qpun.gz
+C:\Users\S1iM\source\repos\ASP\Blazor\Academy\obj\Debug\net10.0\compressed\x7ublnpjhb-{0}-u85uljbvw9-u85uljbvw9.gz

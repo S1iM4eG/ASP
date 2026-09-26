@@ -12,14 +12,24 @@
 
 <div class="controls">
     <h1>Студенты</h1>
+    <div class="student-filters mb-3">
+        <div style="max-width: 300px">
+            <form action="/Students" data-enhance>
+            <lable for="search" class="form-lable">Поиск по имени/фамилии:</lable>    
+            <input type="text" id="search" class="form-control"
+                placeholder="Введите имя или фамилию..."/>
+                @*@bind="searchText" @bind:event="oninput"/>*@
+            </form>
+        </div>
 
+    </div>
     <p>
         <a href="students/create" class="btn btn-primary">Добавить</a>
     </p>
 </div>
 
-@* <QuickGrid Class="table" Items="context.Students.Include(s => s.Group).ThenInclude(g => g.Direction)">
- *@<QuickGrid Class="table" Items="FilteredStudents">
+@* <QuickGrid Class="table" Items="context.Students.Include(s => s.Group).ThenInclude(g => g.Direction)">*@
+    <QuickGrid Class="table" Items="FilteredStudents">
   @*   <PropertyColumn Property="student => student.last_name" />
     <PropertyColumn Property="student => student.first_name" />
     <PropertyColumn Property="student => student.middle_name" /> *@
