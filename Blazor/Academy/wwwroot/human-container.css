@@ -19,6 +19,9 @@
 		border: solid 1px;
 	}
 	.photo-area img {
+		object-fit: cover;
+		min-width: 300px;
+		min-height: 400px;
 		width: 100%;
 		height: 100%;
 	}
