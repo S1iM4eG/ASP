@@ -8,16 +8,18 @@
 
 <PageTitle>Edit</PageTitle>
 
-<h1>Edit</h1>
+@* <h1>Edit</h1>
 
 <h2>Student</h2>
-<hr />
+<hr /> *@
 @if (Student is null)
 {
     <p><em>Loading...</em></p>
 }
 else
 {
+    <h1>@Student.FullName</h1>
+    <hr />
     <div class="row">
         @* <div class="col-md-10"> *@
         <div>
