@@ -1,4 +1,6 @@
-@page "/students/edit"
+﻿@page "/students/edit"
+@rendermode InteractiveServer
+
 @using Microsoft.EntityFrameworkCore
 @using Academy.Models
 @inject IDbContextFactory<Academy.Data.AcademyContext> DbFactory
@@ -17,24 +19,30 @@
 else
 {
     <div class="row">
-        <div class="col-md-10">
+        @* <div class="col-md-10"> *@
+        <div>
             <EditForm method="post" Model="Student" OnValidSubmit="UpdateStudent" FormName="edit" Enhance>
                 <DataAnnotationsValidator />
                 <ValidationSummary role="alert" />
+
                 <div class="human-container">
                     <div class="human-text-fields">
                         <input type="hidden" name="Student.stud_id" value="@Student.stud_id" />
                         <div class="mb-3">
                             <span class="text-danger">*</span>
                             <label for="group" class="form-label">group:</label>
-                            <InputNumber id="group" @bind-Value="Student.group" class="form-control" aria-required="true" />
+                           @*  <InputNumber id="group" @bind-Value="Student.group" class="form-control" aria-required="true" /> *@
+                            <InputSelect id="group" @bind-Value="Student.group" class="form-control">
+                               @using(Academy.Data.AcademyContext context = DbFactory.CreateDbContext())
+                                {
+                                    @foreach(Group group in context.Groups)
+                                    {
+                                        <option value="@group.group_id">@group.group_name</option>
+                                    }
+                                }
+                            </InputSelect>
                             <ValidationMessage For="() => Student.group" class="text-danger" />
                         </div>
-                        @*  <div class="mb-3">
-                            <label for="group" class="form-label">Group:</label>
-                            <InputText id="group" @bind-Value="Student.Group" class="form-control" />
-                            <ValidationMessage For="() => Student.Group" class="text-danger" />
-                        </div> *@
                         <div class="mb-3">
                             <span class="text-danger">*</span>
                             <label for="last_name" class="form-label">last_name:</label>
@@ -69,13 +77,17 @@ else
                             <ValidationMessage For="() => Student.phone" class="text-danger" />
                         </div>
                     </div>
+
+                    <Photo Human="@Student" AllowChange=true />
                 </div>
-                <Photo Human="@Student" AllowChange=true />
-                @*  <div class="mb-3">
+
+                @* 
+					<div class="mb-3">
                     <label for="photo" class="form-label">photo:</label>
                     <InputText id="photo" @bind-Value="Student.photo" class="form-control" />
                     <ValidationMessage For="() => Student.photo" class="text-danger" />
-                </div> *@
+					</div>
+				*@
                 <button type="submit" class="btn btn-primary">Save</button>
             </EditForm>
         </div>
@@ -100,7 +112,7 @@ else
 
         if (Student is null)
         {
-            NavigationManager.NotFound();
+            NavigationManager.NavigateTo("notfound");
         }
     }
 
@@ -119,7 +131,7 @@ else
         {
             if (!StudentExists(Student!.stud_id))
             {
-                NavigationManager.NotFound();
+                NavigationManager.NavigateTo("notfound");
             }
             else
             {

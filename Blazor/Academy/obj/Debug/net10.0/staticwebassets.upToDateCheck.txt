@@ -1,6 +1,7 @@
 wwwroot\app.css
 wwwroot\controls.css
 wwwroot\favicon.png
+wwwroot\human-container.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
@@ -45,7 +46,6 @@ wwwroot\lib\bootstrap\dist\js\bootstrap.js
 wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
 wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
 wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
-wwwroot\human-container.css
 Components\Layout\ReconnectModal.razor.js
 C:\Users\S1iM\.nuget\packages\microsoft.aspnetcore.app.internal.assets\10.0.12\build\..\_framework\blazor.web.js
 C:\Users\S1iM\.nuget\packages\microsoft.aspnetcore.app.internal.assets\10.0.12\build\..\_framework\blazor.server.js
@@ -54,7 +54,6 @@ C:\Users\S1iM\source\repos\ASP\Blazor\Academy\wwwroot\controls.css
 C:\Users\S1iM\source\repos\ASP\Blazor\Academy\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 C:\Users\S1iM\source\repos\ASP\Blazor\Academy\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
 C:\Users\S1iM\source\repos\ASP\Blazor\Academy\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
-C:\Users\S1iM\source\repos\ASP\Blazor\Academy\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
 C:\Users\S1iM\source\repos\ASP\Blazor\Academy\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
 C:\Users\S1iM\source\repos\ASP\Blazor\Academy\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
 C:\Users\S1iM\source\repos\ASP\Blazor\Academy\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
@@ -98,4 +97,5 @@ C:\Users\S1iM\source\repos\ASP\Blazor\Academy\wwwroot\lib\bootstrap\dist\js\boot
 C:\Users\S1iM\source\repos\ASP\Blazor\Academy\Components\Layout\ReconnectModal.razor.js
 C:\Users\S1iM\.nuget\packages\microsoft.aspnetcore.app.internal.assets\10.0.12\_framework\blazor.web.js
 C:\Users\S1iM\.nuget\packages\microsoft.aspnetcore.app.internal.assets\10.0.12\_framework\blazor.server.js
+C:\Users\S1iM\source\repos\ASP\Blazor\Academy\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
 C:\Users\S1iM\source\repos\ASP\Blazor\Academy\wwwroot\human-container.css
