@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E4F85B53-9723-4528-AFA5-B2168D648884}|Academy\\Academy.csproj|c:\\users\\s1im\\source\\repos\\asp\\blazor\\academy\\components\\pages\\studentpages\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E4F85B53-9723-4528-AFA5-B2168D648884}|Academy\\Academy.csproj|solutionrelative:academy\\components\\pages\\studentpages\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E4F85B53-9723-4528-AFA5-B2168D648884}|Academy\\Academy.csproj|c:\\users\\s1im\\source\\repos\\asp\\blazor\\academy\\components\\pages\\studentpages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4F85B53-9723-4528-AFA5-B2168D648884}|Academy\\Academy.csproj|solutionrelative:academy\\components\\pages\\studentpages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E4F85B53-9723-4528-AFA5-B2168D648884}|Academy\\Academy.csproj|c:\\users\\s1im\\source\\repos\\asp\\blazor\\academy\\components\\pages\\studentpages\\cb_groups.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 134,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,28 +34,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CB_Groups.razor",
-              "DocumentMoniker": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Academy\\Components\\Pages\\StudentPages\\CB_Groups.razor",
-              "RelativeDocumentMoniker": "Academy\\Components\\Pages\\StudentPages\\CB_Groups.razor",
-              "ToolTip": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Academy\\Components\\Pages\\StudentPages\\CB_Groups.razor*",
-              "RelativeToolTip": "Academy\\Components\\Pages\\StudentPages\\CB_Groups.razor*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAKAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Create.razor",
+              "DocumentMoniker": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Academy\\Components\\Pages\\StudentPages\\Create.razor",
+              "RelativeDocumentMoniker": "Academy\\Components\\Pages\\StudentPages\\Create.razor",
+              "ToolTip": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Academy\\Components\\Pages\\StudentPages\\Create.razor*",
+              "RelativeToolTip": "Academy\\Components\\Pages\\StudentPages\\Create.razor*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-10-01T16:22:31.244Z",
+              "WhenOpened": "2026-10-01T16:46:18.682Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Edit.razor",
-              "DocumentMoniker": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Academy\\Components\\Pages\\StudentPages\\Edit.razor",
-              "RelativeDocumentMoniker": "Academy\\Components\\Pages\\StudentPages\\Edit.razor",
-              "ToolTip": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Academy\\Components\\Pages\\StudentPages\\Edit.razor*",
-              "RelativeToolTip": "Academy\\Components\\Pages\\StudentPages\\Edit.razor*",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAADAAAAA3AAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "CB_Groups.razor",
+              "DocumentMoniker": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Academy\\Components\\Pages\\StudentPages\\CB_Groups.razor",
+              "RelativeDocumentMoniker": "Academy\\Components\\Pages\\StudentPages\\CB_Groups.razor",
+              "ToolTip": "C:\\Users\\S1iM\\source\\repos\\ASP\\Blazor\\Academy\\Components\\Pages\\StudentPages\\CB_Groups.razor",
+              "RelativeToolTip": "Academy\\Components\\Pages\\StudentPages\\CB_Groups.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-10-01T16:09:02.352Z",
+              "WhenOpened": "2026-10-01T16:22:31.244Z",
               "EditorCaption": ""
             }
           ]
