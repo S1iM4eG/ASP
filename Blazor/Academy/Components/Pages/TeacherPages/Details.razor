@@ -16,24 +16,27 @@
         <p><em>Loading...</em></p>
     }
     else {
-        <div class="controls">
-            <h1>@teacher.FullName</h1>
-            <a href="@($"/teachers/edit?teacher_id={teacher.teacher_id}")" class="btn btn-primary">Edit</a> |
+            <div class="controls">
+                <h1>@teacher.FullName</h1>
+                <a href="@($"/teachers/edit?teacher_id={teacher.teacher_id}")" class="btn btn-primary">Edit</a> |
+            </div>
+            <hr />
+        <div class="human-container">
+            <dl class="human-text-fields">
+                <dt class="col-sm-2">last_name</dt>     <dd class="col-sm-10">@teacher.last_name</dd>
+                <dt class="col-sm-2">first_name</dt>    <dd class="col-sm-10">@teacher.first_name</dd>
+                <dt class="col-sm-2">middle_name</dt>   <dd class="col-sm-10">@teacher.middle_name</dd>
+                <dt class="col-sm-2">birth_date</dt>    <dd class="col-sm-10">@teacher.birth_date</dd>
+                <dt class="col-sm-2">email</dt>         <dd class="col-sm-10">@teacher.email</dd>
+                <dt class="col-sm-2">phone</dt>         <dd class="col-sm-10">@teacher.phone</dd>
+                <dt class="col-sm-2">photo</dt>         <dd class="col-sm-10">@teacher.photo</dd>
+                <dt class="col-sm-2">FullName</dt>      <dd class="col-sm-10">@teacher.FullName</dd>
+                <dt class="col-sm-2">Age</dt>           <dd class="col-sm-10">@teacher.Age</dd>
+                <dt class="col-sm-2">work_since</dt>    <dd class="col-sm-10">@teacher.work_since</dd>
+                <dt class="col-sm-2">rate</dt>          <dd class="col-sm-10">@teacher.rate</dd>
+            </dl>
+            <Photo Human="teacher" />
         </div>
-        <hr />
-        <dl class="row">
-            <dt class="col-sm-2">last_name</dt>     <dd class="col-sm-10">@teacher.last_name</dd>
-            <dt class="col-sm-2">first_name</dt>    <dd class="col-sm-10">@teacher.first_name</dd>
-            <dt class="col-sm-2">middle_name</dt>   <dd class="col-sm-10">@teacher.middle_name</dd>
-            <dt class="col-sm-2">birth_date</dt>    <dd class="col-sm-10">@teacher.birth_date</dd>
-            <dt class="col-sm-2">email</dt>         <dd class="col-sm-10">@teacher.email</dd>
-            <dt class="col-sm-2">phone</dt>         <dd class="col-sm-10">@teacher.phone</dd>
-            <dt class="col-sm-2">photo</dt>         <dd class="col-sm-10">@teacher.photo</dd>
-            <dt class="col-sm-2">FullName</dt>      <dd class="col-sm-10">@teacher.FullName</dd>
-            <dt class="col-sm-2">Age</dt>           <dd class="col-sm-10">@teacher.Age</dd>
-            <dt class="col-sm-2">work_since</dt>    <dd class="col-sm-10">@teacher.work_since</dd>
-            <dt class="col-sm-2">rate</dt>          <dd class="col-sm-10">@teacher.rate</dd>
-        </dl>
         <div>
             <a href="@($"/teachers")">Back to List</a>
         </div>
