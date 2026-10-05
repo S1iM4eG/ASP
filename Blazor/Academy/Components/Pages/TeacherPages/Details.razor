@@ -40,7 +40,8 @@
         <div>
             <a href="@($"/teachers")">Back to List</a>
         </div>
-        <h3>Дисциплины</h3>
+        @*<h3>Дисциплины</h3>*@
+        <h3>Количество дисциплин - @teacher.TDR.Count():</h3>
         <ul>
             @foreach(TeachersDisciplinesRelation tdr in teacher.TDR)
             {
