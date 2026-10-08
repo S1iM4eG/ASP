@@ -87,7 +87,11 @@ else
                     <InputNumber id="age" @bind-Value="Teacher.Age" class="form-control" />
                     <ValidationMessage For="() => Teacher.Age" class="text-danger" />
                     </div>  *@
-                    <Photo Human="Teacher" AllowChange=true />
+                    <div>
+                        <Photo Human="Teacher" AllowChange=true />
+                        <AddDisciplines Teacher="Teacher" />
+                    </div>
+
                 </div>
                 <button type="submit" class="btn btn-primary">Save</button>
             </EditForm>

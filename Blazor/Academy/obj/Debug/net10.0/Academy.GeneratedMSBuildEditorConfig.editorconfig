@@ -135,6 +135,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTdHVkZW50UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/S1iM/source/repos/ASP/Blazor/Academy/Components/Pages/TeacherPages/AddDisciplines.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xUZWFjaGVyUGFnZXNcQWRkRGlzY2lwbGluZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/S1iM/source/repos/ASP/Blazor/Academy/Components/Pages/TeacherPages/Create.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xUZWFjaGVyUGFnZXNcQ3JlYXRlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 

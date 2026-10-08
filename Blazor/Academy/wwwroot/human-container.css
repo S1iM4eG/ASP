@@ -2,6 +2,11 @@
 	display: flex;
 	justify-content: space-between;
 }
+	.human-container > div 
+	{
+		width: 50%;
+		height: 100vh;
+	}
 
 .human-text-fields {
 	width: 50%;
@@ -9,7 +14,8 @@
 }
 
 .photo-area {
-	width: 50%;
+	width: 90%;
+	height:67vh;
 	text-align: center;
 }
 
