@@ -61,7 +61,7 @@
         NewDisciplines.Add(newRelation);
         discipline = -1;
     }
-    async Task Update()
+    public async Task Update()
     {
         using Academy.Data.AcademyContext context = DbFactory.CreateDbContext();
         List<TeachersDisciplinesRelation> pairs = new List<TeachersDisciplinesRelation>();
