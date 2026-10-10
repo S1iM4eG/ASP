@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "ContosoUniversity/1.0.0": {
+        "runtime": {
+          "ContosoUniversity.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ContosoUniversity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
