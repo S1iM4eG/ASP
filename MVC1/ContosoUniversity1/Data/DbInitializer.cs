@@ -17,8 +17,8 @@ namespace ContosoUniversity1.Data
 			{
 				return;   // DB has been seeded
 			}
-
-			var students = new Student[]
+			
+			Student[] students = new Student[]
 			{
 				new Student{FirstName="Carson",LastName="Alexander",EnrollmentDate=DateTime.Parse("2019-09-01")},
 				new Student{FirstName="Meredith",LastName="Alonso",EnrollmentDate=DateTime.Parse("2017-09-01")},
@@ -33,7 +33,7 @@ namespace ContosoUniversity1.Data
 			context.Students.AddRange(students);
 			context.SaveChanges();
 
-			var courses = new Course[]
+			Course[] courses = new Course[]
 			{
 				new Course{CourseID=1050,Title="Chemistry",Credits=3},
 				new Course{CourseID=4022,Title="Microeconomics",Credits=3},
@@ -47,7 +47,7 @@ namespace ContosoUniversity1.Data
 			context.Courses.AddRange(courses);
 			context.SaveChanges();
 
-			var enrollments = new Enrollment[]
+			Enrollment[] enrollments = new Enrollment[]
 			{
 				new Enrollment{StudentID=1,CourseID=1050,Grade=Grade.A},
 				new Enrollment{StudentID=1,CourseID=4022,Grade=Grade.C},

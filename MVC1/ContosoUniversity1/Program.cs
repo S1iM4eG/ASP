@@ -1,3 +1,4 @@
+using ContosoUniversity1.Data;
 using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 var connectionString = builder.Configuration.GetConnectionString("ContosoUniversity1Context") ?? throw new InvalidOperationException("Connection string 'ContosoUniversity1Context' not found.");
@@ -42,6 +43,7 @@ static void CreateDbIfNotExists(IHost host)
     try
         {
             ContosoUniversity1Context context = provider.GetRequiredService<ContosoUniversity1Context>();
+            DbInitializer.Initialize(context);
         }
         catch (Exception ex)
         {
