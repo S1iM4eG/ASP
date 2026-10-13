@@ -41,7 +41,7 @@ static void CreateDbIfNotExists(IHost host)
         IServiceProvider provider = scope.ServiceProvider;
     try
         {
-            ContosoUniversityContext context = provider.GetRequiredService<ContosoUniversityContext>();
+            ContosoUniversity1Context context = provider.GetRequiredService<ContosoUniversity1Context>();
         }
         catch (Exception ex)
         {

@@ -1,17 +1,19 @@
 ﻿#define DB_INIT_1
 
 #if DB_INIT_1
-using ContosoUniversity.Data;
-using ContosoUniversity.Models;
+using ContosoUniversity1.Data;
+using ContosoUniversity1.Models;
 
-namespace ContosoUniversity.Data
+namespace ContosoUniversity1.Data
 {
 	public static class DbInitializer
 	{
-		public static void Initialize(ContosoUniversityContext context)
+		public static void Initialize(ContosoUniversity1Context context)
 		{
-			// Look for any students.
-			if (context.Students.Any())
+			context.Database.EnsureCreated();
+
+            // Look for any students.
+            if (context.Students.Any())
 			{
 				return;   // DB has been seeded
 			}
