@@ -98,3 +98,5 @@ C:\Users\S1iM\source\repos\ASP\MVS\ContosoUniversity\obj\Debug\net10.0\ContosoUn
 C:\Users\S1iM\source\repos\ASP\MVS\ContosoUniversity\obj\Debug\net10.0\ContosoUniversity.genruntimeconfig.cache
 C:\Users\S1iM\source\repos\ASP\MVS\ContosoUniversity\obj\Debug\net10.0\ref\ContosoUniversity.dll
 C:\Users\S1iM\source\repos\ASP\MVS\ContosoUniversity\obj\Debug\net10.0\ContosoU.2F40B0B5.Up2Date
+C:\Users\S1iM\source\repos\ASP\MVS\ContosoUniversity\bin\Debug\net10.0\dotnet-tools.json
+C:\Users\S1iM\source\repos\ASP\MVS\ContosoUniversity\obj\Debug\net10.0\ContosoUniversity.csproj.AssemblyReference.cache
