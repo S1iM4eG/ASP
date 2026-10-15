@@ -13,7 +13,7 @@ public class StudentsController : Controller
     }
 
     // GET: STUDENTS
-    public async Task<IActionResult> Index()    
+    public async Task<IActionResult> Index(ыекшт)    
     {
         return View(await _context.Student.ToListAsync());
     }

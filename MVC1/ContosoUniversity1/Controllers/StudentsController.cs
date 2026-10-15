@@ -13,9 +13,23 @@ public class StudentsController : Controller
     }
 
     // GET: STUDENTS
-    public async Task<IActionResult> Index()    
+    public async Task<IActionResult> Index(string sortOrder)
     {
-        return View(await _context.Students.ToListAsync());
+        ViewData["NameSortParam"] = string.IsNullOrEmpty(sortOrder) ? "name_desc" : "";
+        ViewData["DateSortParam"] = sortOrder == "date_asc" ? "date_desc" : "date_asc";
+
+        IQueryable<Student> students = from student in _context.Students select student;
+
+        switch (sortOrder)
+        {
+            case "name_desc": students = students.OrderByDescending(s => s.LastName); break;
+            case "date_desc": students = students.OrderByDescending(s => s.EnrollmentDate); break;
+            case "date_asc": students = students.OrderBy(s => s.EnrollmentDate); break;
+            default: students = students.OrderBy(s => s.LastName); break;
+        }
+
+        return View(await students.ToListAsync());
+        //return View(await _context.Student.ToListAsync());
     }
 
     // GET: STUDENTS/Details/5
