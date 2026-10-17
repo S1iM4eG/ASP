@@ -14,7 +14,7 @@ public class StudentsController : Controller
     }
 
     // GET: STUDENTS
-    public async Task<IActionResult> Index(string sortOrder, string searchString, int? pageIndex)
+    public async Task<IActionResult> Index(string sortOrder, string searchString, int? pageIndex, int itemsPerPage=3)
     {
         ViewData["NameSortParam"] = string.IsNullOrEmpty(sortOrder) ? "name_desc" : "";
         ViewData["DateSortParam"] = sortOrder == "date_asc" ? "date_desc" : "date_asc";
@@ -42,7 +42,7 @@ public class StudentsController : Controller
             default:            students = students.OrderBy(s => s.LastName);                   break;
         }
 
-        int pageSize = 3;
+        int pageSize = itemsPerPage;
         return View(await PaginatedList<Student>.CreateAsync(students.AsNoTracking(), pageIndex ?? 1, pageSize));
         //return View(await students.ToListAsync());
         //return View(await _context.Student.ToListAsync());
