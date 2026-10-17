@@ -3,15 +3,17 @@
 {
     height: 48vh;
 }
-.pagination-controls, .pagination-items, .pagination-items > div {
+.pagination-controls, .pagination-items, .pagination-items > a {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-    .pagination-items, .pagination-items > div {
+    .pagination-items, .pagination-items > a {
         justify-content: center;
     }
-        .pagination-items > div{
+        .pagination-items > a{
+            text-decoration: none;
+            color:white;
             width: 32px;
             height: 32px;
             border: solid 1px;

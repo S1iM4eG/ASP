@@ -466,4 +466,4 @@ C:\Users\Sergey\source\repos\ASP1\MVC1\ContosoUniversity1\obj\Debug\net10.0\refi
 C:\Users\Sergey\source\repos\ASP1\MVC1\ContosoUniversity1\obj\Debug\net10.0\ContosoUniversity1.pdb
 C:\Users\Sergey\source\repos\ASP1\MVC1\ContosoUniversity1\obj\Debug\net10.0\ContosoUniversity1.genruntimeconfig.cache
 C:\Users\Sergey\source\repos\ASP1\MVC1\ContosoUniversity1\obj\Debug\net10.0\ref\ContosoUniversity1.dll
-C:\Users\Sergey\source\repos\ASP1\MVC1\ContosoUniversity1\obj\Debug\net10.0\compressed\kuqbzx5dpe-{0}-bmyd1jry67-bmyd1jry67.gz
+C:\Users\Sergey\source\repos\ASP1\MVC1\ContosoUniversity1\obj\Debug\net10.0\compressed\kuqbzx5dpe-{0}-dx6962ylpk-dx6962ylpk.gz

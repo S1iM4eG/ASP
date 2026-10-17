@@ -1,3 +1,4 @@
+wwwroot\css\pagination.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\js\site.js
@@ -61,7 +62,6 @@ wwwroot\lib\jquery\dist\jquery.slim.js
 wwwroot\lib\jquery\dist\jquery.slim.min.js
 wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
-wwwroot\css\pagination.css
 C:\Users\Sergey\source\repos\ASP1\MVC1\ContosoUniversity1\wwwroot\lib\jquery\LICENSE.txt
 C:\Users\Sergey\source\repos\ASP1\MVC1\ContosoUniversity1\wwwroot\css\site.css
 C:\Users\Sergey\source\repos\ASP1\MVC1\ContosoUniversity1\wwwroot\favicon.ico
