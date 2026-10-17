@@ -452,7 +452,6 @@ C:\Users\Sergey\source\repos\ASP1\MVC1\ContosoUniversity1\obj\Debug\net10.0\comp
 C:\Users\Sergey\source\repos\ASP1\MVC1\ContosoUniversity1\obj\Debug\net10.0\compressed\42zjzstboc-{0}-9vr69e8ynj-9vr69e8ynj.gz
 C:\Users\Sergey\source\repos\ASP1\MVC1\ContosoUniversity1\obj\Debug\net10.0\compressed\t1hl1ve7ud-{0}-87fc7y1x7t-87fc7y1x7t.gz
 C:\Users\Sergey\source\repos\ASP1\MVC1\ContosoUniversity1\obj\Debug\net10.0\compressed\wa2vagks09-{0}-mlv21k5csn-mlv21k5csn.gz
-C:\Users\Sergey\source\repos\ASP1\MVC1\ContosoUniversity1\obj\Debug\net10.0\compressed\jj85s96b7w-{0}-0483jfnzub-0483jfnzub.gz
 C:\Users\Sergey\source\repos\ASP1\MVC1\ContosoUniversity1\obj\Debug\net10.0\compressed\tbqcby7p80-{0}-b0p9psrjvc-b0p9psrjvc.gz
 C:\Users\Sergey\source\repos\ASP1\MVC1\ContosoUniversity1\obj\Debug\net10.0\compressed\vfova6m9zw-{0}-b0p9psrjvc-b0p9psrjvc.gz
 C:\Users\Sergey\source\repos\ASP1\MVC1\ContosoUniversity1\obj\Debug\net10.0\staticwebassets.build.json
@@ -467,3 +466,4 @@ C:\Users\Sergey\source\repos\ASP1\MVC1\ContosoUniversity1\obj\Debug\net10.0\refi
 C:\Users\Sergey\source\repos\ASP1\MVC1\ContosoUniversity1\obj\Debug\net10.0\ContosoUniversity1.pdb
 C:\Users\Sergey\source\repos\ASP1\MVC1\ContosoUniversity1\obj\Debug\net10.0\ContosoUniversity1.genruntimeconfig.cache
 C:\Users\Sergey\source\repos\ASP1\MVC1\ContosoUniversity1\obj\Debug\net10.0\ref\ContosoUniversity1.dll
+C:\Users\Sergey\source\repos\ASP1\MVC1\ContosoUniversity1\obj\Debug\net10.0\compressed\kuqbzx5dpe-{0}-bmyd1jry67-bmyd1jry67.gz
