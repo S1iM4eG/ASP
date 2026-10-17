@@ -4,6 +4,7 @@
     ViewData["Title"] = "Students";
 }
 
+<div class="controls">
 <h1>Students</h1>
 <form asp-action="Index" method="get">
     <lable>
@@ -13,9 +14,11 @@
     <input type="submit" value="Поиск" class="btn btn-primary" />
     <a asp-action="Index" class="btn btn-dark">Сброс</a>
 </form>
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
+
+<div>
+    <a asp-action="Create" class="btn btn-primary">Create New</a>
+</div>
+</div>
 <div class="table-container">
     <table class="table">
         <thead>
