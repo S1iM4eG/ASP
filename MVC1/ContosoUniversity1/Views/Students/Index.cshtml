@@ -15,14 +15,14 @@
 <p>
     <a asp-action="Create">Create New</a>
 </p>
-<table class="table">
+<div class="table-container">
+ <table class="table">
     <thead>
         <tr>
             <th>
                 <a asp-action="Index" 
                 asp-route-sortOrder="@ViewData["NameSortParam"]" 
-                asp-route-searchString="@ViewData["CurrentFilter"]"
-                >
+                asp-route-searchString="@ViewData["CurrentFilter"]">
                     Last name
                    @*  @Html.DisplayNameFor(model => model.LastName) *@
                 </a>
@@ -69,7 +69,7 @@
 }
     </tbody>
 </table>
-
+</div>
 @{
     string prevDisabled = Model.HasPreviousPage ? "" : "disabled";
     string nextDisabled = Model.HasNextPage     ? "" : "disabled";
@@ -77,7 +77,7 @@
 
 <a asp-action="Index"
    asp-route-pageIndex="@(Model.PageIndex - 1)"
-   asp-route-currentFilter="@ViewData["CurrentFilter"]"
+   asp-route-searchString="@ViewData["CurrentFilter"]"
    class="btn btn-default @prevDisabled"
 >
     Prev
@@ -85,7 +85,7 @@
 
 <a asp-action="Index"
    asp-route-pageIndex="@(Model.PageIndex + 1)"
-   asp-route-currentFilter="@ViewData["CurrentFilter"]"
+   asp-route-searchString="@ViewData["CurrentFilter"]"
    class="btn btn-default @nextDisabled"
 >
     Next
