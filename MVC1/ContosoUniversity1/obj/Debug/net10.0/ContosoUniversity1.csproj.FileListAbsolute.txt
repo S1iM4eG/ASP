@@ -468,3 +468,5 @@ C:\Users\Sergey\source\repos\ASP1\MVC1\ContosoUniversity1\obj\Debug\net10.0\Cont
 C:\Users\Sergey\source\repos\ASP1\MVC1\ContosoUniversity1\obj\Debug\net10.0\ref\ContosoUniversity1.dll
 C:\Users\Sergey\source\repos\ASP1\MVC1\ContosoUniversity1\obj\Debug\net10.0\compressed\kuqbzx5dpe-{0}-dx6962ylpk-dx6962ylpk.gz
 C:\Users\Sergey\source\repos\ASP1\MVC1\ContosoUniversity1\obj\Debug\net10.0\compressed\3t0dhicjos-{0}-bxg1cmmy6l-bxg1cmmy6l.gz
+C:\Users\S1iM\source\repos\ASP\MVC1\ContosoUniversity1\obj\Debug\net10.0\compressed\kuqbzx5dpe-{0}-431qze8tbu-431qze8tbu.gz
+C:\Users\S1iM\source\repos\ASP\MVC1\ContosoUniversity1\obj\Debug\net10.0\compressed\3t0dhicjos-{0}-lyns2sphw7-lyns2sphw7.gz

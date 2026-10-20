@@ -1,18 +1,34 @@
-@model IEnumerable<ContosoUniversity1.Models.Enrollment>
+@*@model IEnumerable<ContosoUniversity1.Models.Enrollment>*@
+@model PaginatedList<Enrollment>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Enrollments";
 }
+<div class="controls">
+    <h1>Enrollments</h1>
+    <div>
+        <label for="items-per-page">Items per page:</label>
+        <select id="items-per-page" asp-action="Index" asp-route-itemsPerPage="">
+            <option value="3">3</option>
+            <option value="5">5</option>
+            <option value="8">8</option>
+        </select>
+    </div>
 
-<h1>Index</h1>
+    <div>
+        <a asp-action="Create" class="btn btn-primary">Create New</a>
+    </div>
+</div>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
 <table class="table">
     <thead>
         <tr>
-            <th>
+            <th>CourseID</th>
+            <th>StudentID</th>
+            <th>Grade</th>
+            <th>Student</th>
+            <th>Course</th>
+            @*  <th>
                 @Html.DisplayNameFor(model => model.CourseID)
             </th>
             <th>
@@ -26,34 +42,67 @@
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Course)
-            </th>
+            </th>*@
             <th></th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(model => item.CourseID)
-            </td>
-            <td>
-                @Html.DisplayFor(model => item.StudentID)
-            </td>
-            <td>
-                @Html.DisplayFor(model => item.Grade)
-            </td>
-            <td>
-                @Html.DisplayFor(model => item.Student)
-            </td>
-            <td>
-                @Html.DisplayFor(model => item.Course)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.EnrollmentID">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.EnrollmentID">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.EnrollmentID">Delete</a>
-            </td>
-        </tr>
-}
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(model => item.CourseID)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => item.StudentID)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => item.Grade)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => item.Student)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => item.Course)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.EnrollmentID">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.EnrollmentID">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.EnrollmentID">Delete</a>
+                </td>
+            </tr>
+        }
     </tbody>
 </table>
+
+@{
+    string prevDisabled = Model.HasPreviousPage ? "" : "disabled";
+    string nextDisabled = Model.HasNextPage ? "" : "disabled";
+}
+
+<div class="pagination-controls">
+    <a asp-action="Index"
+       asp-route-pageIndex="@(Model.PageIndex - 1)"
+       asp-route-searchString="@ViewData["CurrentFilter"]"
+       class="btn btn-default @prevDisabled">
+        Prev
+    </a>
+    <div class="pagination-items">
+        @for (int i = 1; i <= Model.TotalPages; i++)
+        {
+            <a asp-action="Index"
+               asp-route-pageIndex="@i"
+               asp-route-searchString="@ViewData["CurrentFilter"]"
+               class=@(i == Model.PageIndex ? "selected-page" : "pagination-item")>
+                @i
+            </a>
+        }
+    </div>
+
+    <a asp-action="Index"
+       asp-route-pageIndex="@(Model.PageIndex + 1)"
+       asp-route-searchString="@ViewData["CurrentFilter"]"
+       class="btn btn-default @nextDisabled">
+        Next
+    </a>
+</div>  

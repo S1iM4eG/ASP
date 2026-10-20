@@ -1,7 +1,8 @@
 
+using ContosoUniversity1;
+using ContosoUniversity1.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using ContosoUniversity1.Models;
 
 public class EnrollmentsController : Controller
 {
@@ -13,9 +14,11 @@ public class EnrollmentsController : Controller
     }
 
     // GET: ENROLLMENTS
-    public async Task<IActionResult> Index()    
+    public async Task<IActionResult> Index(int? pageIndex, int itemsPerPage = 5)    
     {
-        return View(await _context.Enrollments.ToListAsync());
+        IQueryable<Enrollment> enrollments = from enrollment in _context.Enrollments select enrollment;
+        int pageSize = itemsPerPage;
+        return View(await PaginatedList<Enrollment>.CreateAsync(enrollments.AsNoTracking(), pageIndex ?? 1, pageSize));
     }
 
     // GET: ENROLLMENTS/Details/5
