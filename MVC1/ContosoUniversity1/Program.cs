@@ -1,4 +1,4 @@
-using ContosoUniversity1.Data;
+using ContosoUniversity.Data;
 using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 var connectionString = builder.Configuration.GetConnectionString("ContosoUniversity1Context") ?? throw new InvalidOperationException("Connection string 'ContosoUniversity1Context' not found.");

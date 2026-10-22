@@ -1,4 +1,4 @@
-﻿#define DB_INIT_1
+﻿#define DB_INIT_2
 
 #if DB_INIT_1
 using ContosoUniversity1.Data;
@@ -72,7 +72,7 @@ namespace ContosoUniversity1.Data
 
 #if DB_INIT_2
 using ContosoUniversity.Data;
-using ContosoUniversity.Models;
+using ContosoUniversity1.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -81,10 +81,11 @@ namespace ContosoUniversity.Data
 {
 	public static class DbInitializer
 	{
-		public static void Initialize(ContosoUniversityContext context)
+		public static void Initialize(ContosoUniversity1Context context)
 		{
-			// Look for any students.
-			if (context.Students.Any())
+            context.Database.EnsureCreated();
+            // Look for any students.
+            if (context.Students.Any())
 			{
 				return;   // DB has been seeded
 			}

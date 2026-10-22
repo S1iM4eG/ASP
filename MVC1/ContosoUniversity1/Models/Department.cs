@@ -22,7 +22,7 @@ namespace ContosoUniversity1.Models
         public int? InstructorID { get; set; }
 
         //Navigation properties:
-        public Instructor Instructor { get; set; }
+        public Instructor Administrator { get; set; }
         public ICollection<Course> Courses { get; set; }
     }
 }
