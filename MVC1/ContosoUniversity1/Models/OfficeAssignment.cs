@@ -6,11 +6,11 @@ namespace ContosoUniversity1.Models
     {
         [Key]
         public int InstructorID { get; set; }
-        
+
         [StringLength(50)]
         public string Location { get; set; }
 
-        //NavigationProperties:
+        //Navigation properties:
         public Instructor Instructor { get; set; }
     }
 }

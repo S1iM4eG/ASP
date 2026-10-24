@@ -8,6 +8,10 @@ public class ContosoUniversity1Context : DbContext
         public DbSet<ContosoUniversity1.Models.Student> Students { get; set; } = default!;
         public DbSet<ContosoUniversity1.Models.Course> Courses { get; set; } = default!;
         public DbSet<ContosoUniversity1.Models.Enrollment> Enrollments { get; set; } = default!;
+        public DbSet<ContosoUniversity1.Models.Instructor> Instructors { get; set; } = default!;
+        public DbSet<ContosoUniversity1.Models.OfficeAssignment> OfficeAssignments { get; set; } = default!;
+        public DbSet<ContosoUniversity1.Models.Department> Departments { get; set; } = default!;
+        public DbSet<ContosoUniversity1.Models.CourseAssignment> CourseAssignments { get; set; } = default!;
     //protected override void OnModelCreating(ModelBuilder modelBuilder)
     //{
     //    modelBuilder.Entity<Student>().ToTable("Student");

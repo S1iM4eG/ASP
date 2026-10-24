@@ -1,39 +1,23 @@
-@* @model IEnumerable<ContosoUniversity1.Models.Course>*@
-@model PaginatedList<Course>
+@model IEnumerable<ContosoUniversity1.Models.Course>
+
 @{
-    ViewData["Title"] = "Courses";
+    ViewData["Title"] = "Index";
 }
 
-<div class="controls">
-    <h1>Courses</h1>
-    <div>
-        <label for="items-per-page">Items per page:</label>
-        <select id="items-per-page" asp-action="Index" asp-route-itemsPerPage="">
-            <option value="3">3</option>
-            <option value="5">5</option>
-            <option value="8">8</option>
-        </select>
-    </div>
+<h1>Index</h1>
 
-    <div>
-        <a asp-action="Create" class="btn btn-primary">Create New</a>
-    </div>
-</div>
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
 <table class="table">
     <thead>
         <tr>
-            <th>Title</th>
-            <th>Credits</th>
-            <th>Enrollments</th>
-            @* <th>
+            <th>
                 @Html.DisplayNameFor(model => model.Title)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Credits)
             </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Enrollments)
-            </th> *@
             <th></th>
         </tr>
     </thead>
@@ -42,13 +26,10 @@
         {
             <tr>
                 <td>
-                    @Html.DisplayFor(model => item.Title)
+                    @Html.DisplayFor(modelItem => item.Title)
                 </td>
                 <td>
-                    @Html.DisplayFor(model => item.Credits)
-                </td>
-                <td>
-                    @Html.DisplayFor(model => item.Enrollments)
+                    @Html.DisplayFor(modelItem => item.Credits)
                 </td>
                 <td>
                     <a asp-action="Edit" asp-route-id="@item.CourseID">Edit</a> |
@@ -59,35 +40,3 @@
         }
     </tbody>
 </table>
-
-@{
-    string prevDisabled = Model.HasPreviousPage ? "" : "disabled";
-    string nextDisabled = Model.HasNextPage ? "" : "disabled";
-}
-
-<div class="pagination-controls">
-    <a asp-action="Index"
-       asp-route-pageIndex="@(Model.PageIndex - 1)"
-       asp-route-searchString="@ViewData["CurrentFilter"]"
-       class="btn btn-default @prevDisabled">
-        Prev
-    </a>
-    <div class="pagination-items">
-        @for (int i = 1; i <= Model.TotalPages; i++)
-        {
-            <a asp-action="Index"
-               asp-route-pageIndex="@i"
-               asp-route-searchString="@ViewData["CurrentFilter"]"
-               class=@(i == Model.PageIndex ? "selected-page" : "pagination-item")>
-                @i
-            </a>
-        }
-    </div>
-
-    <a asp-action="Index"
-       asp-route-pageIndex="@(Model.PageIndex + 1)"
-       asp-route-searchString="@ViewData["CurrentFilter"]"
-       class="btn btn-default @nextDisabled">
-        Next
-    </a>
-</div>  

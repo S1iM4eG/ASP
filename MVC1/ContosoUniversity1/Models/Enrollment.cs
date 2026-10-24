@@ -13,7 +13,7 @@ namespace ContosoUniversity1.Models
         [DisplayFormat(NullDisplayText = "Пересдача")]
         public Grade? Grade { get; set; }
 
-        // Navigation properties:
+        //Navigation properties:
         public Student Student { get; set; }
         public Course Course { get; set; }
     }

@@ -1,11 +1,12 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using ContosoUniversity1.Models;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ContosoUniversity1.Models
 {
     public class Course
     {
-        [DatabaseGenerated(DatabaseGeneratedOption.None)] // Эта аннотация отключает автоинкремент
+        [DatabaseGenerated(DatabaseGeneratedOption.None)]   //Эта аннотация отключает автоинкремент
         public int CourseID { get; set; }
         public string Title { get; set; }
 
@@ -14,11 +15,12 @@ namespace ContosoUniversity1.Models
 
         [ForeignKey(nameof(Department))]
         public int DepartmentID { get; set; }
-        // Navigation properties:
+
+        //Navigation properties:
         public ICollection<Enrollment> Enrollments { get; set; }
         public Department Department { get; set; }
         public ICollection<CourseAssignment> CourseAssignments { get; set; }
 
-        public List<Instructor> Instructors { get; set; } = default;
+        public List<Instructor> Instructors { get; set; } = default!;
     }
 }
