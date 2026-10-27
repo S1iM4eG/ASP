@@ -22,8 +22,10 @@ namespace Academy.Models
         [DisplayFormat(DataFormatString = "{0:dd.MM.yyyy}", ApplyFormatInEditMode = true)]
         public DateTime? birth_date { get; set; }
         [DisplayName("Email")]
+        [StringLength(50)]
         public string? email { get; set; }
         [DisplayName("Телефон")]
+        [StringLength(16)]
         public string? phone { get; set; }
         //[DisplayName("Фото")]
         //public byte[]? photo { get; set; }

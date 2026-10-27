@@ -8,6 +8,7 @@ namespace Academy.Models
         [Key]
         public int group_id { get; set; }
         [Required]
+        [StringLength(10)]
         [DisplayName("Группа")]
         public string group_name { get; set; }
         [Required]
