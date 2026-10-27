@@ -1,11 +1,13 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 
 namespace Academy.Models
 {
     public class Directions
     {
-        [Required]
-        public int direction_id { get; set; }
+        [Key]
+        public byte direction_id { get; set; }
+        [DisplayName("Направление")]
         [Required]
         [StringLength(50)]
         public string direction_name { get; set; }
