@@ -63,9 +63,8 @@ wwwroot\lib\jquery\dist\jquery.slim.js
 wwwroot\lib\jquery\dist\jquery.slim.min.js
 wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
-C:\Users\S1iM\source\repos\ASP\MVC1\ContosoUniversity1\wwwroot\css\controls.css
+C:\Users\S1iM\source\repos\ASP\MVC1\ContosoUniversity1\wwwroot\lib\jquery\LICENSE.txt
 C:\Users\S1iM\source\repos\ASP\MVC1\ContosoUniversity1\wwwroot\css\pagination.css
-C:\Users\S1iM\source\repos\ASP\MVC1\ContosoUniversity1\wwwroot\css\site.css
 C:\Users\S1iM\source\repos\ASP\MVC1\ContosoUniversity1\wwwroot\favicon.ico
 C:\Users\S1iM\source\repos\ASP\MVC1\ContosoUniversity1\wwwroot\js\site.js
 C:\Users\S1iM\source\repos\ASP\MVC1\ContosoUniversity1\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
@@ -126,4 +125,5 @@ C:\Users\S1iM\source\repos\ASP\MVC1\ContosoUniversity1\wwwroot\lib\jquery\dist\j
 C:\Users\S1iM\source\repos\ASP\MVC1\ContosoUniversity1\wwwroot\lib\jquery\dist\jquery.slim.js
 C:\Users\S1iM\source\repos\ASP\MVC1\ContosoUniversity1\wwwroot\lib\jquery\dist\jquery.slim.min.js
 C:\Users\S1iM\source\repos\ASP\MVC1\ContosoUniversity1\wwwroot\lib\jquery\dist\jquery.slim.min.map
-C:\Users\S1iM\source\repos\ASP\MVC1\ContosoUniversity1\wwwroot\lib\jquery\LICENSE.txt
+C:\Users\S1iM\source\repos\ASP\MVC1\ContosoUniversity1\wwwroot\css\controls.css
+C:\Users\S1iM\source\repos\ASP\MVC1\ContosoUniversity1\wwwroot\css\site.css
