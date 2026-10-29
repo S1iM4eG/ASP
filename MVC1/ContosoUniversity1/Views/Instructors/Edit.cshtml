@@ -44,6 +44,9 @@
                 <input asp-for="CourseAssignments" class="form-control" />
                 <span asp-validation-for="CourseAssignments" class="text-danger"></span>
                 </div>*@
+                <div class="form-group">
+                    <input type="submit" value="Save" class="btn btn-primary" />
+                </div>
             </div>
             
             <div class="" style="width:55%;">
@@ -55,27 +58,24 @@
                                 courses = ViewBag.Courses;
                                 foreach(ContosoUniversity1.Models.ViewModels.AssignedCourseData course in courses)
                                 {
-                                    if(count % 3 == 0)
+                                    if(count++ % 3 == 0)
                                     {
                                         @:</tr><tr>
                                     }
                                     @:<td>
-                                        <input type="checkbox" 
-                                            name="selectedCourses" 
-                                            value="@course.CourseID" 
-                                            id="@course.CourseID"
-                                            @(course.Assigned ? "checked=\"checked\"" : "") 
-                                            />
-                                            <lable for="@course.CourseID">
-                                                @course.CourseID @course.Title
-                                            </lable>
+                                        <input type="checkbox"
+                                               name="selectedCourses"
+                                               value="@course.CourseID"
+                                               id="@course.CourseID"
+                                        @(course.Assigned ? "checked=\"checked\"" : "") />
+                                        <label for="@course.CourseID">
+                                            @course.CourseID @course.Title
+                                        </label>
                                     @:</td>
                                 }
-                            }
-                                </div>
+                        }
+                    </tr>
                 </table>
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
             </div>
         </form>
     </div>
