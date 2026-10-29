@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Academy.Models;
 using Academy.Data;
+using Academy.Models.ViewModels;
 
 public class DirectionsController : Controller
 {
@@ -14,9 +15,27 @@ public class DirectionsController : Controller
     }
 
     // GET: DIRECTIONSS
-    public async Task<IActionResult> Index()    
+    public async Task<IActionResult> Index(int? id)
     {
-        return View(await _context.Directions.ToListAsync());
+        
+        var viewModel = new DirectionIndexData();
+        viewModel.Directions = await _context.Directions
+            .AsNoTracking()
+            .ToListAsync();
+
+        if (id != null)
+        {
+            ViewData["DirectionID"] = id.Value;
+            // подгрузите связанные данные для выбранного направления,
+            // например:
+             viewModel.Groups = await _context.Groups
+                 .Where(g => g.direction == id.Value)
+                 .AsNoTracking()
+                 .ToListAsync();
+        }
+
+        return View(viewModel);
+        //return View(await _context.Directions.ToListAsync());
     }
 
     // GET: DIRECTIONSS/Details/5

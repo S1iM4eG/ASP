@@ -345,3 +345,4 @@ C:\Users\S1iM\source\repos\ASP\MVC1\Academy\bin\Debug\net10.0\ru\Microsoft.CodeA
 C:\Users\S1iM\source\repos\ASP\MVC1\Academy\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\Users\S1iM\source\repos\ASP\MVC1\Academy\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\Users\S1iM\source\repos\ASP\MVC1\Academy\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\S1iM\source\repos\ASP\MVC1\Academy\obj\Debug\net10.0\compressed\09l5nem2tb-{0}-lyns2sphw7-lyns2sphw7.gz

@@ -1,7 +1,8 @@
-@model IEnumerable<Academy.Models.Directions>
+@*@model IEnumerable<Academy.Models.Directions>*@
 
+@model Academy.Models.ViewModels.DirectionIndexData
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Directions";
 }
 
 <h1>Index</h1>
@@ -13,18 +14,21 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.direction_name)
+                @Html.DisplayNameFor(model => model.Directions.First().direction_name)
             </th>
             <th></th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
+@foreach (var item in Model.Directions) {
+        string selectedRow = "";
+        if (item.direction_id == (int?)ViewData["DirectionID"]) selectedRow = "table-success";
+        <tr class="@selectedRow">
             <td>
                 @Html.DisplayFor(model => item.direction_name)
             </td>
             <td>
+                <a asp-action="Index" asp-route-id="@item.direction_id">Select</a> |
                 <a asp-action="Edit" asp-route-id="@item.direction_id">Edit</a> |
                 <a asp-action="Details" asp-route-id="@item.direction_id">Details</a> |
                 <a asp-action="Delete" asp-route-id="@item.direction_id">Delete</a>
@@ -33,3 +37,35 @@
 }
     </tbody>
 </table>
+
+@if (Model.Groups != null && Model.Groups.Any())
+{
+    <h3>Группы на выбранном направлении</h3>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>@Html.DisplayNameFor(m => m.Groups.First().group_name)</th>
+                <th>@Html.DisplayNameFor(m => m.Groups.First().start_date)</th>
+                <th>@Html.DisplayNameFor(m => m.Groups.First().start_time)</th>
+                <th>@Html.DisplayNameFor(m => m.Groups.First().learning_days)</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var group in Model.Groups)
+            {
+                <tr>
+                    <td>@group.group_name</td>
+                    <td>@Html.DisplayFor(m => group.start_date)</td>
+                    <td>@Html.DisplayFor(m => group.start_time)</td>
+                    <td>@Html.DisplayFor(m => group.learning_days)</td>
+                    <td>
+                        <a asp-controller="Groups" asp-action="Edit" asp-route-id="@group.group_id">Edit</a> |
+                        <a asp-controller="Groups" asp-action="Details" asp-route-id="@group.group_id">Details</a> |
+                        <a asp-controller="Groups" asp-action="Delete" asp-route-id="@group.group_id">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

@@ -3,12 +3,29 @@
 @{
     ViewData["Title"] = "Index";
 }
+<div class="controls">
+<h1>Students</h1>
+<form asp-action="Index" method="get">
+		<label>
+			Поиск по имени:
+			<input type="search" name="SearchString" value="@ViewData["CurrentFilter"]" />
+			<input type="submit" value="Поиск" class="btn btn-primary" />
+			<a asp-action="Index" class="btn btn-dark">Сброс</a>
+		</label>
 
-<h1>Index</h1>
-
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
+	<div>
+		<label for="items-per-page">Items per page:</label>
+		<select id="items-per-page" name="itemsPerPage" onchange="this.form.submit()">
+			<option value="3" selected="@(Convert.ToInt32(ViewData["ItemsPerPage"]) == 3)">3</option>
+			<option value="5" selected="@(Convert.ToInt32(ViewData["ItemsPerPage"]) == 5)">5</option>
+			<option value="8" selected="@(Convert.ToInt32(ViewData["ItemsPerPage"]) == 8)">8</option>
+		</select>
+	</div>
+	</form>
+<div>
+		<a asp-action="Create" class="btn btn-primary">Create New</a>
+	</div>
+<div>
 <table class="table">
     <thead>
         <tr>
@@ -75,3 +92,39 @@
 }
     </tbody>
 </table>
+@* 
+            @{
+	string prevDisabled = Model.HasPreviousPage ? "" : "disabled";
+	string nextDisabled = Model.HasNextPage ? "" : "disabled";
+}
+
+<div class="pagination-controls">
+	<a asp-action="Index"
+	   asp-route-pageIndex="@(Model.PageIndex - 1)"
+	   asp-route-searchString="@ViewData["CurrentFilter"]"
+	   asp-route-ItemsPerPage="@ViewData["ItemsPerPage"]"
+	   class="btn btn-default @prevDisabled">
+		Prev
+	</a>
+
+	<div class="pagination-items">
+		@for (int i = 1; i <= Model.TotalPages; i++)
+		{
+			<a asp-action="Index"
+			   asp-route-pageIndex="@i"
+			   asp-route-searchString="@ViewData["CurrentFilter"]"
+			   asp-route-ItemsPerPage="@ViewData["ItemsPerPage"]"
+			   class=@(i == Model.PageIndex ? "selected-page" : "pagination-item")>
+				@i
+			</a>
+		}
+	</div>
+
+	<a asp-action="Index"
+	   asp-route-pageIndex="@(Model.PageIndex + 1)"
+	   asp-route-searchString="@ViewData["CurrentFilter"]"
+	   asp-route-ItemsPerPage="@ViewData["ItemsPerPage"]"
+	   class="btn btn-default @nextDisabled">
+		Next
+	</a>
+</div> *@
