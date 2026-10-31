@@ -86,6 +86,9 @@ namespace ContosoUniversity1.Controllers
         // GET: Instructors/Create
         public IActionResult Create()
         {
+            Instructor instructor = new Instructor();
+            instructor.CourseAssignments = new List<CourseAssignment>();
+            PopulateAssignedCourseData(instructor);
             return View();
         }
 
@@ -94,8 +97,9 @@ namespace ContosoUniversity1.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ID,LastName,FirstName,HireDate")] Instructor instructor)
+        public async Task<IActionResult> Create([Bind("ID,LastName,FirstName,HireDate")] Instructor instructor, string[] selectedCourses)
         {
+            if (selectedCourses != null) UpdateInstructorCourses(selectedCourses, instructor);
             if (ModelState.IsValid)
             {
                 _context.Add(instructor);
@@ -186,33 +190,47 @@ namespace ContosoUniversity1.Controllers
             //    instructor.CourseAssignments = new List<CourseAssignment>();
             //    return;
             //}
-            HashSet<string> selectedCoursesHS = new HashSet<string>(selectedCourses);
-            HashSet<int> instructorCourses = new HashSet<int>
-                (instructor.CourseAssignments.Select(c => c.Course.CourseID));
-            foreach (Course course in _context.Courses)
+
+           // HashSet<string> selectedCoursesHS = new HashSet<string>(selectedCourses);
+            List<CourseAssignment> courseAssignments = new List<CourseAssignment>();
+            foreach(string courseID in selectedCourses)
             {
-                if (selectedCoursesHS.Contains(course.CourseID.ToString()))
-                {
-                    if (!instructorCourses.Contains(course.CourseID))
+                courseAssignments.Add
+                (
+                    new CourseAssignment
                     {
-                        instructor.CourseAssignments.Add(new CourseAssignment
-                        {
-                            InstructorID = instructor.ID,
-                            CourseID = course.CourseID
-                        });
+                        InstructorID = instructor.ID,
+                        CourseID = Convert.ToInt32(courseID)
                     }
-                }
-                else
-                {
-                    if (instructorCourses.Contains(course.CourseID))
-                    {
-                        CourseAssignment courseToRemove = instructor
-                            .CourseAssignments
-                            .FirstOrDefault(i => i.CourseID == course.CourseID);
-                        _context.Remove(courseToRemove);
-                    }
-                }
+                );
             }
+            instructor.CourseAssignments = courseAssignments;
+            //HashSet<int> instructorCourses = new HashSet<int>
+            //    (instructor.CourseAssignments.Select(c => c.Course.CourseID));
+            //foreach (Course course in _context.Courses)
+            //{
+            //    if (selectedCoursesHS.Contains(course.CourseID.ToString()))
+            //    {
+            //        if (!instructorCourses.Contains(course.CourseID))
+            //        {
+            //            instructor.CourseAssignments.Add(new CourseAssignment
+            //            {
+            //                InstructorID = instructor.ID,
+            //                CourseID = course.CourseID
+            //            });
+            //        }
+            //    }
+            //    else
+            //    {
+            //        if (instructorCourses.Contains(course.CourseID))
+            //        {
+            //            CourseAssignment courseToRemove = instructor
+            //                .CourseAssignments
+            //                .FirstOrDefault(i => i.CourseID == course.CourseID);
+            //            _context.Remove(courseToRemove);
+            //        }
+            //    }
+            //}
         }
 
         /*public async Task<IActionResult> Edit(int id, [Bind("ID,LastName,FirstName,HireDate")] Instructor instructor)

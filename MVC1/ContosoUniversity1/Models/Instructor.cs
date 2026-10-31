@@ -31,6 +31,6 @@ namespace ContosoUniversity1.Models
         
         //Navigation Properties:
         public OfficeAssignment OfficeAssignment { get; set; }
-        public ICollection<CourseAssignment> CourseAssignments { get; set; }
+        public ICollection<CourseAssignment>? CourseAssignments { get; set; }
     }
 }
